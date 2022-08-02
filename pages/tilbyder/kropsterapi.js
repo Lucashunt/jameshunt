@@ -104,7 +104,7 @@ const kropsterapi = () => {
         <div className="grid grid-cols-3 gap-8 pb-8 text-white place-items-start">
           <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
-              <div className="text-4xl italic text-left">"</div>
+              <div className="text-4xl italic text-left">&quot;</div>
               <div className="mx-8">
                 <p className="text-center font-extralight">
                   Kære James, efter behandling hos dig har jeg bare ingen
@@ -116,13 +116,13 @@ const kropsterapi = () => {
                   - Maren Andreasen
                 </p>
               </div>
-              <div className="h-5 text-4xl italic text-right">"</div>
+              <div className="h-5 text-4xl italic text-right">&quot;</div>
             </div>
           </div>
 
           <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
-              <div className="text-4xl italic text-left">"</div>
+              <div className="text-4xl italic text-left">&quot;</div>
               <div className="mx-8">
                 <p className="text-center font-extralight">
                   Jeg bliver behandlet med Kranio-sakral terapi, på grund af en
@@ -138,13 +138,13 @@ const kropsterapi = () => {
                 </p>
                 <p className="italic font-thin text-center">- Signe Narp</p>
               </div>
-              <div className="h-5 text-4xl italic text-right">"</div>
+              <div className="h-5 text-4xl italic text-right">&quot;</div>
             </div>
           </div>
 
           <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
-              <div className="text-4xl italic text-left">"</div>
+              <div className="text-4xl italic text-left">&quot;</div>
               <div className="mx-8">
                 <p className="text-center font-extralight">
                   James’ behandlinger møder min krop lige, hvor den er, hvilket
@@ -154,7 +154,7 @@ const kropsterapi = () => {
                 </p>
                 <p className="italic font-thin text-center">- Anette, 57 år</p>
               </div>
-              <div className="h-5 text-4xl italic text-right">"</div>
+              <div className="h-5 text-4xl italic text-right">&quot;</div>
             </div>
           </div>
         </div>

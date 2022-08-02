@@ -112,34 +112,34 @@ const kraniosakral = () => {
                         
                         <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                             <div className="m-2">
-                            <div className="text-4xl italic text-left">"</div>
+                            <div className="text-4xl italic text-left">&quot;</div>
                             <div className="mx-8">
                             <p className="text-center font-extralight">Kære James, efter behandling hos dig har jeg bare ingen smerter. En fantastisk fornemmelse i min nakke. Jeg føler jeg kan dreje hovedet hele vejen rundt ;-). Tak tak tak. <br /> <br /></p>
                             <p className="italic font-thin text-center">- Maren Andreasen</p>
                             </div>
-                            <div className="h-5 text-4xl italic text-right">"</div>
+                            <div className="h-5 text-4xl italic text-right">&quot;</div>
                             </div>
                         </div>
 
                         <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                             <div className="m-2">
-                            <div className="text-4xl italic text-left">"</div>
+                            <div className="text-4xl italic text-left">&quot;</div>
                             <div className="mx-8">
                             <p className="text-center font-extralight">Jeg bliver behandlet med Kranio-sakral terapi, på grund af en langvarig hjernerystelse (post commotionelt syndrom) og deraf følgende problemer med hovedpine, spændinger og stresstilstand i kroppen. Efter blot to behandlinger hos James, har jeg oplevet en forbedring i symptomniveau, og et generelt større velvære. Jeg oplever at behandlingen er med til at skubbe min krop (og hovedet) i den rigtige retning. KST er en yderst mild og behagelig behandlingsform, og min krop reagerer med en fantastisk ro og en enorm træthed efter behandlingen<br /> <br /></p>
                             <p className="italic font-thin text-center">- Signe Narp</p>
                             </div>
-                            <div className="h-5 text-4xl italic text-right">"</div>
+                            <div className="h-5 text-4xl italic text-right">&quot;</div>
                             </div>
                         </div>
 
                         <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                             <div className="m-2">
-                            <div className="text-4xl italic text-left">"</div>
+                            <div className="text-4xl italic text-left">&quot;</div>
                             <div className="mx-8">
                             <p className="text-center font-extralight">James’ behandlinger møder min krop lige, hvor den er, hvilket for min krop betyder, at den føler sig mødt og dermed kan slippe spændingerne. Kan varmt anbefales.<br /> <br /></p>
                             <p className="italic font-thin text-center">- Anette, 57 år</p>
                             </div>
-                            <div className="h-5 text-4xl italic text-right">"</div>
+                            <div className="h-5 text-4xl italic text-right">&quot;</div>
                             </div>
                         </div>
 
