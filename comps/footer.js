@@ -4,26 +4,41 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="text-white bg-black">
-        <div className="p-5 ">
-          <h1 className="mb-5 text-3xl font-extrabold">PERNILLE HUNT</h1>
-          <div className="ml-4">
-            <div className="flex justify-between">
-              <p className=" hover:text-gray-400">
-                <Link href="/contact">Kontakt</Link>
-              </p>
-              <p className="">+45 51 90 10 97</p>
-            </div>
-            <div className="flex justify-between">
-              <p className="hover:text-gray-400">
-                <Link href="/contact">Om mig</Link>
-              </p>
-              <p className="text-right text-white">Pernille.i.rask@gmail.com</p>
-            </div>
+      <div className=" bg-default">
+        <div className="py-20 text-white mx-72">
+          <div className="grid grid-cols-4 gap-9">
+          <div>
+            <h1 className="mb-8 font-bold uppercase">Kraniosakral</h1>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Læs mere</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum.</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum dolor.</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Kranio</p>
           </div>
-
-          <p className="mt-4 text-xs italic">Udviklet af Lucas Hunt</p>
+          <div>
+            <h1 className="mb-8 font-bold uppercase">Meditation</h1>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Læs mere</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum.</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum dolor.</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Kranio</p>
+          </div>
+          <div>
+            <h1 className="mb-8 font-bold uppercase">Yoga</h1>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Læs mere</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum.</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum dolor.</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Kranio</p>
+          </div>
+          <div>
+            <h1 className="mb-8 font-bold uppercase">Kontakt</h1>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Læs mere</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum.</p>
+            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum dolor.</p>
+            <p className="inline-block px-2 mt-3 font-extrabold transition duration-300 ease-in-out bg-blue-600 rounded-full hover:translate-x-2"><Link href="https://www.facebook.com/Jameshunt.dk">F</Link></p>
+          </div>
+          </div>
+          
         </div>
+        
       </div>
     </>
   );
