@@ -52,12 +52,12 @@ const sleep = () => {
               <div className="flex justify-center mt-7">
               <div className="text-white transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                             <div className="m-2">
-                            <div className="text-4xl italic text-left">"</div>
+                            <div className="text-4xl italic text-left">&quot;</div>
                             <div className="mx-8">
                             <p className="text-center font-extralight">Søvn, søvn, forfærdelige opfindelse, forfærdelige nødvendighed, <br /> du eneste magt, som jeg frygter<br /> <br /></p>
                             <p className="italic font-thin text-center">- Søren Kirkegaard</p>
                             </div>
-                            <div className="h-5 text-4xl italic text-right">"</div>
+                            <div className="h-5 text-4xl italic text-right">&quot;</div>
                             </div>
                         </div>
                         </div>
