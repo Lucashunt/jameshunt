@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import skov from "../public/skov.jpeg";
+import skov from "../../public/skov.jpeg";
 
 const sleep = () => {
   return (

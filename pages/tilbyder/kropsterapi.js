@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import hav from "../public/hav.jpeg";
+import hav from "../../public/hav.jpeg";
 
 const kropsterapi = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import bro from "../public/bro.jpeg";
+import bro from "../../public/bro.jpeg";
 
 const stressbehandling = () => {
   return (
