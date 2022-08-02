@@ -6,7 +6,7 @@ const kropsterapi = () => {
   return (
     <div className="bg-background">
       <div className="px-24">
-        <Image src={hav} placeholder="blur" priority />
+        <Image alt="change" src={hav} placeholder="blur" priority />
 
         <h1 className="my-8 text-6xl text-center font-extralight">
           Krops Terapi

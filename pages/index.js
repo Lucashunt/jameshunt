@@ -20,7 +20,7 @@ export default function Home() {
               <span className="mt-4 italic font-thin">- Albert Einstein</span>
             </div>
             <div className="">
-              <Image src={headerImage} placeholder="blur" priority />
+              <Image alt="change" src={headerImage} placeholder="blur" priority />
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Home() {
             <h1 className="mb-4 text-3xl text-center font-extralight">
               Kraniosakral Terapi
             </h1>
-            <Image src={gridImgOne} placeholder="blur" />
+            <Image alt="change" src={gridImgOne} placeholder="blur" />
             <p className="mx-10 mt-2 text-center font-extralight">
               Det blide tryg med den store virkning
             </p>
@@ -74,7 +74,7 @@ export default function Home() {
             <h1 className="mb-4 text-3xl text-center font-extralight">
               Krops Terapi
             </h1>
-            <Image src={gridImgTwo} placeholder="blur" />
+            <Image alt="change" src={gridImgTwo} placeholder="blur" />
             <p className="mx-10 mt-2 text-center font-extralight">
               En helhedsorienteret måde at arbejde med krop og psyke på
             </p>
@@ -88,7 +88,7 @@ export default function Home() {
             <h1 className="mb-4 text-3xl text-center font-extralight">
               Yoga & meditation
             </h1>
-            <Image src={gridImgThree} placeholder="blur" />
+            <Image alt="change" src={gridImgThree} placeholder="blur" />
             <p className="mx-10 mt-2 text-center font-extralight">
               Yoga, meditationer og afspændinger
             </p>
