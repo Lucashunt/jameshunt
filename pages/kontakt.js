@@ -12,11 +12,11 @@ const kontakt = () => {
           <div className="col-span-2 sm:mr-16">
            
                
-                <div class="mt-8 max-w-lg">
-            <div class="grid grid-cols-1 gap-6 ">
-              <label class="block">
-                <span class="text-gray-700">Navn</span>
-                <input type="text" class="bg-background
+                <div className="max-w-lg mt-8">
+            <div className="grid grid-cols-1 gap-6 ">
+              <label className="block">
+                <span className="text-gray-700">Navn</span>
+                <input type="text" className="bg-background
                     mt-0
                     block
                     w-full
@@ -25,9 +25,9 @@ const kontakt = () => {
                     focus:ring-0 focus:border-black
                   " placeholder="James Hunt"/>
               </label>
-              <label class="block">
-                <span class="text-gray-700">Email</span>
-                <input type="email" class="
+              <label className="block">
+                <span className="text-gray-700">Email</span>
+                <input type="email" className="
                 bg-background
                     mt-0
                     block
@@ -37,9 +37,9 @@ const kontakt = () => {
                     focus:ring-0 focus:border-black
                   " placeholder="john@example.com"/>
               </label>
-              <label class="block">
-                <span class="text-gray-700">Emne</span>
-                <input type="email" class="
+              <label className="block">
+                <span className="text-gray-700">Emne</span>
+                <input type="email" className="
                 bg-background
                     mt-0
                     block
@@ -49,9 +49,9 @@ const kontakt = () => {
                     focus:ring-0 focus:border-black
                   " placeholder="Tilmelding hold"/>
               </label>
-              <label class="block">
-                <span class="text-gray-700">Additional details</span>
-                <textarea class="
+              <label className="block">
+                <span className="text-gray-700">Additional details</span>
+                <textarea className="
                 bg-background
                     mt-0
                     block

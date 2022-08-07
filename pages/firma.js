@@ -92,13 +92,13 @@ const firma = () => {
                 <br />
                 <br />
                 <button className="px-5 py-3 transition duration-300 bg-white rounded-md text-default hover:bg-white/60">
-                  <a href="https://docdro.id/c55zdya" target="_blank" download>
+                  <a href="https://docdro.id/c55zdya" target="_blank" download rel="noreferrer">
                                         DOWNLOAD FOREDRAG BROCHURE “STRESSHÅNDTERING I PRAKSIS HER
                     (PDF)
                   </a>
                 </button>
                 <button className="px-5 py-3 mt-6 transition duration-300 bg-white rounded-md text-default hover:bg-white/60">
-                  <a href="https://docdro.id/TSvHZBN" target="_blank" download>
+                  <a href="https://docdro.id/TSvHZBN" target="_blank" download rel="noreferrer">
                   DOWNLOAD FIRMA BROCHURE HER (PDF) 
                   </a>
                 </button>
