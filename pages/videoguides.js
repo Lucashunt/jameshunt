@@ -5,8 +5,8 @@ const videoGuides = () => {
     return ( 
         <div className="bg-background">
             <div className="mx-8 sm:mx-48">
-              <h1 className="pt-4 text-4xl tracking-wide text-center sm:text-6xl font-extralight">Videoguides</h1>
-              <div className="flex flex-col items-center justify-center my-20 sm:flex-row">
+              <h1 className="py-16 text-4xl tracking-wide text-center sm:text-6xl font-extralight">Videoguides</h1>
+              <div className="flex flex-col items-center justify-center my-10 sm:flex-row">
               <h2 className="mb-4 mr-3 text-4xl font-thin sm:mb-0">Gå til:</h2>         
           <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
           <Link href="#yoga">Yoga</Link>

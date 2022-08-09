@@ -9,11 +9,11 @@ const firma = () => {
         <div className="hidden sm:block">
         <Image alt="change" src={mark} placeholder="blur" priority />
         </div>
-        <h1 className="py-8 text-4xl text-center sm:text-5xl font-extralight">
+        <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-5xl font-extralight">
           Opmærksomhed, udholdenhed og balance i livet
         </h1>
 
-        <div className="grid-cols-3 gap-4 py-8 sm:grid sm:py-16">
+        <div className="grid-cols-3 gap-4 sm:py-8 sm:grid">
           <div className="col-span-2 sm:mr-16">
             <div className="mb-14">
               <h1 className="mb-4 text-3xl text-center sm:text-left">Stresshåndtering</h1>

@@ -9,9 +9,9 @@ const sleep = () => {
         <div className="hidden sm:block">
         <Image alt="change" src={skov} placeholder="blur" priority />
         </div>
-        <h1 className="py-8 text-4xl text-center sm:text-6xl font-extralight">Søvn</h1>
+        <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">Søvn</h1>
 
-        <div className="grid-cols-3 gap-4 py-8 sm:grid sm:py-16">
+        <div className="grid-cols-3 gap-4 sm:grid sm:py-8">
           <div className="col-span-2 sm:mr-16">
             <div className="mb-14">
               <h1 className="mb-4 text-3xl text-center sm:text-left">Hvordan foregår et søvn forløb?</h1>

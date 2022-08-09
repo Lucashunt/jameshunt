@@ -6,7 +6,7 @@ const kraniosakral = () => {
   return (
     <div className="bg-background">
       <div className="px-10 sm:px-24">
-        <div className="relative hidden h-80 sm:block">
+        <div className="hidden h-80 sm:block">
         <Image alt="change" src={Kranio} placeholder="blur" priority layout="fill"/>
         </div>
         <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">Kranio-Sakral Terapi</h1>
