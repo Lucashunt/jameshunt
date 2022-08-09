@@ -27,7 +27,7 @@ const Navbars = () => {
     
     <div className="bg-background">
     <div className="pt-6 text-4xl font-bold tracking-wide text-center text-default"><Link href="/"> James Hunt</Link></div>
-    <div className="flex items-center justify-center py-4 text-xs font-light sm:text-base text">
+    <div className="flex items-center justify-center py-4 text-sm font-light sm:text-base text">
       
         <ul className="flex">
         <Menu as="div" className="">
