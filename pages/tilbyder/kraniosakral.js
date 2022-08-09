@@ -5,15 +5,16 @@ import Kranio from "../../public/Kranio.jpeg";
 const kraniosakral = () => {
   return (
     <div className="bg-background">
-      <div className="px-24">
-        <Image alt="change" src={Kranio} placeholder="blur" priority />
+      <div className="px-10 sm:px-24">
+        <div className="relative hidden h-80 sm:block">
+        <Image alt="change" src={Kranio} placeholder="blur" priority layout="fill"/>
+        </div>
+        <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">Kranio-Sakral Terapi</h1>
 
-        <h1 className="my-8 text-6xl text-center font-extralight">Kranio-Sakral Terapi</h1>
-
-        <div className="grid grid-cols-3 gap-4 py-16">
-          <div className="col-span-2 mr-16">
+        <div className="grid-cols-3 gap-4 sm:py-8 sm:grid">
+          <div className="col-span-2 sm:mr-16">
             <div className="mb-14">
-              <h1 className="mb-4 text-3xl">Hvordan foregår en behandling?</h1>
+              <h1 className="mb-4 text-3xl text-center sm:text-left">Hvordan foregår en behandling?</h1>
               <p className=" font-extralight">
                 En behandling starter altid med en kort samtale. Du fortæller
                 lidt om dig selv, dine problematikker og dine forventninger til
@@ -31,7 +32,7 @@ const kraniosakral = () => {
               </p>
             </div>
             <div className=" mb-14">
-              <h1 className="mb-4 text-3xl">Hvad er kranio- sakral terapi</h1>
+              <h1 className="mb-4 text-3xl text-center sm:text-left">Hvad er kranio- sakral terapi</h1>
               <p className="font-extralight">
                 Kranio-Sakral terapi er en behandlingsform som kan påvirker
                 knogler, muskler og skaber opmærksomhed på den fysiske og
@@ -49,8 +50,8 @@ const kraniosakral = () => {
                 mentalt.
               </p>
             </div>
-            <div className="">
-              <h1 className="mb-4 text-3xl">KST kan hjælpe på disse forskellige lidelser:</h1>
+            <div className="mb-12 sm:mb-0">
+              <h1 className="mb-4 text-3xl text-center sm:text-left">KST kan hjælpe på disse forskellige lidelser:</h1>
               <p className="font-extralight">
                 Stress – rygsmerter – piskesmæld – depression – søvnbesvær –
                 koncentrations- og indlæringsproblemer – hormonbalancen –
@@ -62,7 +63,7 @@ const kraniosakral = () => {
             </div>
             <div></div>
           </div>
-          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+          <div className="h-auto py-2 text-white rounded-md shadow-2xl sm:py-0 sm bg-default shadow-black">
             <div className="m-10">
               <h1 className="text-3xl text-center">Priser</h1>
               <p className="mt-10 font-extralight">
@@ -108,9 +109,9 @@ const kraniosakral = () => {
         </div>
 
                     <h1 className="mt-12 mb-8 text-4xl text-center font-extralight">Anmeldelser</h1>
-                    <div className="grid grid-cols-3 gap-8 pb-8 text-white place-items-start">
+                    <div className="grid-cols-3 gap-8 pb-8 text-white sm:grid place-items-start">
                         
-                        <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+                        <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                             <div className="m-2">
                             <div className="text-4xl italic text-left">&quot;</div>
                             <div className="mx-8">
@@ -121,7 +122,7 @@ const kraniosakral = () => {
                             </div>
                         </div>
 
-                        <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+                        <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                             <div className="m-2">
                             <div className="text-4xl italic text-left">&quot;</div>
                             <div className="mx-8">

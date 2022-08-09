@@ -11,15 +11,15 @@ export default function Home() {
     <div className=" bg-background">
       {/* Header sektion */}
 
-      <div className="px-24 py-12">
+      <div className="px-10 py-6 sm:py-12 sm:px-24">
         <div className="">
-          <div className="grid grid-cols-2 gap-12">
-            <div className="flex flex-col justify-center ml-10 text-5xl leading-tight font-extralight">
+          <div className="flex flex-col grid-cols-2 gap-12 sm:grid">
+            <div className="flex flex-col justify-center text-4xl leading-tight text-center sm:ml-10 sm:text-5xl font-extralight sm:text-left">
               Et problem kan ikke beskrives og løses med den tænkning, der har
               skabt det{" "}
               <span className="mt-4 italic font-thin">- Albert Einstein</span>
             </div>
-            <div className="">
+            <div className="order-first sm:order-last">
               <Image alt="change" src={headerImage} placeholder="blur" priority />
             </div>
           </div>
@@ -28,10 +28,10 @@ export default function Home() {
 
       {/* Citat sektion */}
 
-      <div className="grid grid-cols-4 bg-white">
+      <div className="px-10 bg-white sm:grid-cols-4 sm:grid">
         <div></div>
         <div className="col-span-2">
-          <div className="flex items-center text-5xl leading-tight text-center h-80 font-extralight">
+          <div className="flex items-center text-4xl leading-tight text-center sm:text-5xl h-80 font-extralight">
             <h1>
               <span className="underline underline-offset-2 decoration-2">
                 Opmærksomhed
@@ -53,10 +53,10 @@ export default function Home() {
 
       {/* 3 grid med de forskellige */}
 
-      <div className="mx-20 my-40">
+      <div className="mx-20 my-16 sm:my-40">
 
-        <div className="grid grid-cols-3 gap-8 ">
-          <div className="">
+        <div className="gap-8 sm:grid-cols-3 sm:grid ">
+          <div className="mb-16 sm:mb-0">
             <h1 className="mb-4 text-3xl text-center font-extralight">
               Kraniosakral Terapi
             </h1>
@@ -66,11 +66,11 @@ export default function Home() {
             </p>
             <div className="flex justify-center">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/">Læs mere</Link>
+                <Link href="/tilbyder/kraniosakral">Læs mere</Link>
               </button>
             </div>
           </div>
-          <div className="">
+          <div className="mb-16 sm:mb-0">
             <h1 className="mb-4 text-3xl text-center font-extralight">
               Krops Terapi
             </h1>
@@ -80,7 +80,7 @@ export default function Home() {
             </p>
             <div className="flex justify-center">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/">Læs mere</Link>
+                <Link href="/tilbyder/kropsterapi">Læs mere</Link>
               </button>
             </div>
           </div>
@@ -94,17 +94,17 @@ export default function Home() {
             </p>
             <div className="flex justify-center">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/">Læs mere</Link>
+                <Link href="/tilbyder/stressbehandling">Læs mere</Link>
               </button>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Evt facebook del */}
+      {/* Facebook del */}
 
       <div className="flex items-center justify-center bg-white h-80">
-        <h1 className="mr-6 text-5xl font-extralight hover:text-black/50">
+        <h1 className="text-4xl sm:text-5xl sm:mr-6 font-extralight hover:text-black/50">
           <Link href="https://www.facebook.com/Jameshunt.dk">
             Find mig på facebook
           </Link>
@@ -129,7 +129,7 @@ export default function Home() {
       {/* Kontakt sektion */}
 
       <div className="flex flex-col items-center justify-center h-96 font-extralight">
-        <h1 className="text-5xl ">Skriv endelig til mig</h1>
+        <h1 className="text-4xl sm:text-5xl">Skriv endelig til mig</h1>
         <button className="px-5 py-3 mt-12 text-white transition duration-300 rounded-md bg-default hover:bg-default/60">
           <Link href="/">Kontakt mig</Link>
         </button>

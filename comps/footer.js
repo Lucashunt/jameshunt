@@ -5,30 +5,30 @@ const Footer = () => {
   return (
     <>
       <div className=" bg-default">
-        <div className="py-20 text-white mx-72">
-          <div className="grid grid-cols-4 gap-9">
-          <div>
-            <h1 className="mb-8 font-bold uppercase">Kraniosakral</h1>
+        <div className="py-20 mx-10 text-white sm:mx-36">
+          <div className="grid grid-cols-2 sm:grid-cols-4 sm:gap-9 place-items-center">
+          <div className="">
+            <h1 className="mb-8 font-bold uppercase">Generelt</h1>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Læs mere</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum.</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum dolor.</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Kranio</p>
           </div>
-          <div>
+          <div className="">
             <h1 className="mb-8 font-bold uppercase">Meditation</h1>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Læs mere</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum.</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum dolor.</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Kranio</p>
           </div>
-          <div>
+          <div className="hidden sm:block">
             <h1 className="mb-8 font-bold uppercase">Yoga</h1>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Læs mere</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum.</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum dolor.</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Kranio</p>
           </div>
-          <div>
+          <div className="hidden sm:block">
             <h1 className="mb-8 font-bold uppercase">Kontakt</h1>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Læs mere</p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2">Lorem, ipsum.</p>

@@ -5,10 +5,10 @@ import headerImage from "../public/JamesSortUdenBaggrund.jpg";
 const about = () => {
   return (
     <div className="bg-background">
-      <div className="px-24">
-        <h1 className="py-8 text-5xl text-center font-extralight">Om mig</h1>
+      <div className="px-10 sm:px-24">
+        <h1 className="py-8 text-4xl text-center sm:text-6xl font-extralight">Om mig</h1>
 
-        <div className="grid-cols-3 gap-4 py-16 sm:grid">
+        <div className="grid-cols-3 gap-4 py-8 sm:py-16 sm:grid">
           <div className="col-span-2 sm:mr-16">
             <div className="mb-14">
               <h1 className="hidden mb-4 text-3xl sm:visible">Om</h1>

@@ -51,7 +51,7 @@ const Navbars = () => {
                     <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="tilbyder/kraniosakral"
+                            href="http://localhost:3000/tilbyder/kraniosakral"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Kranio-Sakral Terapi
@@ -61,7 +61,7 @@ const Navbars = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="tilbyder/kropsterapi"
+                            href="http://localhost:3000/tilbyder/kropsterapi"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Krops Terapi
@@ -71,7 +71,7 @@ const Navbars = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="tilbyder/sleep"
+                            href="http://localhost:3000/tilbyder/sleep"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Søvn
@@ -81,7 +81,7 @@ const Navbars = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="tilbyder/stressbehandling"
+                            href="http://localhost:3000/tilbyder/stressbehandling"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Stressbehandling

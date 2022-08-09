@@ -5,17 +5,18 @@ import mark from "../public/Mark.jpeg";
 const firma = () => {
   return (
     <div className="bg-background">
-      <div className="px-24">
+      <div className="px-10 sm:px-24">
+        <div className="hidden sm:block">
         <Image alt="change" src={mark} placeholder="blur" priority />
-
-        <h1 className="my-8 text-5xl text-center font-extralight">
+        </div>
+        <h1 className="py-8 text-4xl text-center sm:text-5xl font-extralight">
           Opmærksomhed, udholdenhed og balance i livet
         </h1>
 
-        <div className="grid grid-cols-3 gap-4 py-16">
-          <div className="col-span-2 mr-16">
+        <div className="grid-cols-3 gap-4 py-8 sm:grid sm:py-16">
+          <div className="col-span-2 sm:mr-16">
             <div className="mb-14">
-              <h1 className="mb-4 text-3xl">Stresshåndtering</h1>
+              <h1 className="mb-4 text-3xl text-center sm:text-left">Stresshåndtering</h1>
               <p className=" font-extralight">
                 <b>Stresshåndtering</b> er blevet en nødvendig del af den
                 enkelte og firmaers platform for et godt arbejdsliv. Det
@@ -36,7 +37,7 @@ const firma = () => {
               </p>
             </div>
             <div className="mb-14">
-              <h1 className="mb-4 text-2xl">
+              <h1 className="mb-4 text-2xl text-center sm:text-left">
                 Emner som typisk vil blive gennemgået er:
               </h1>
               <p className=" font-extralight">
@@ -50,18 +51,18 @@ const firma = () => {
               </p>
             </div>
             <div className="">
-              <h1 className="mb-4 text-2xl">
+              <h1 className="mb-4 text-2xl text-center sm:text-left">
                 Jeg forventer følgende resultater af et forløb med jer:
               </h1>
 
-              <ul className="ml-8 list-disc list-inside font-extralight">
+              <ul className="ml-8 list-disc list-outside font-extralight">
                 <li> Bedre koncentration</li>
                 <li> Bedre evne til at prioritere</li>
                 <li>Bedre sammenhold og forståelse for hinanden </li>
                 <li> Bedre selvværd hos den enkelte (trivsel og velvære)</li>
                 <li>Bedre resultater</li>
               </ul>
-              <div className="flex justify-center mt-7">
+              <div className="flex justify-center mb-12 mt-7 sm:mb-0">
                 <div className="text-white transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                   <div className="m-2">
                     <div className="text-4xl italic text-left">&quot;</div>
@@ -82,7 +83,7 @@ const firma = () => {
 
             <div></div>
           </div>
-          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+          <div className="h-auto py-2 text-white rounded-md shadow-2xl bg-default shadow-black">
             <div className="m-10">
               <h1 className="text-3xl text-center">Generelt</h1>
               <p className="mt-10 font-extralight">

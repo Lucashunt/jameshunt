@@ -5,15 +5,16 @@ import skov from "../../public/skov.jpeg";
 const sleep = () => {
   return (
     <div className="bg-background">
-      <div className="px-24">
+      <div className="px-10 sm:px-24">
+        <div className="hidden sm:block">
         <Image alt="change" src={skov} placeholder="blur" priority />
+        </div>
+        <h1 className="py-8 text-4xl text-center sm:text-6xl font-extralight">Søvn</h1>
 
-        <h1 className="my-8 text-6xl text-center font-extralight">Søvn</h1>
-
-        <div className="grid grid-cols-3 gap-4 py-16">
-          <div className="col-span-2 mr-16">
+        <div className="grid-cols-3 gap-4 py-8 sm:grid sm:py-16">
+          <div className="col-span-2 sm:mr-16">
             <div className="mb-14">
-              <h1 className="mb-4 text-3xl">Hvordan foregår et søvn forløb?</h1>
+              <h1 className="mb-4 text-3xl text-center sm:text-left">Hvordan foregår et søvn forløb?</h1>
               <p className=" font-extralight">
                 <b>Søvnproblemer</b> (insomni) skyldes i langt de fleste
                 tilfælde flere faktorer. <br /> <br />
@@ -30,11 +31,11 @@ const sleep = () => {
               </p>
             </div>
             <div className="">
-              <h1 className="mb-4 text-2xl">
+              <h1 className="mb-4 text-2xl text-center sm:text-left">
                 På dette forløb arbejder vi med?
               </h1>
               
-              <ul className="ml-8 list-disc list-inside font-extralight">
+              <ul className="ml-4 list-disc list-outside sm:ml-8 font-extralight">
                 <li> Etablering af gode søvnvaner.</li>
                 <li> Afspændingsteknikker, herunder “det bevidste åndedræt”</li>
                 <li>
@@ -50,7 +51,7 @@ const sleep = () => {
                 gjort mig, da jeg igennem en årrække led under svær insomni.
               </p>
               <div className="flex justify-center mt-7">
-              <div className="text-white transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+              <div className="mb-10 text-white transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80 sm:mb-0">
                             <div className="m-2">
                             <div className="text-4xl italic text-left">&quot;</div>
                             <div className="mx-8">
@@ -65,7 +66,7 @@ const sleep = () => {
 
             <div></div>
           </div>
-          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+          <div className="h-auto py-2 text-white rounded-md shadow-2xl bg-default shadow-black">
             <div className="m-10">
               <h1 className="text-3xl text-center">Generelt</h1>
               <p className="mt-10 font-extralight">

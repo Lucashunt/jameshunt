@@ -5,17 +5,18 @@ import bro from "../../public/bro.jpeg";
 const stressbehandling = () => {
   return (
     <div className="bg-background">
-      <div className="px-24">
+      <div className="px-10 sm:px-24">
+        <div className="hidden sm:block">
         <Image alt="change" src={bro} placeholder="blur" priority />
-
-        <h1 className="my-8 text-6xl text-center font-extralight">
+        </div>
+        <h1 className="py-8 text-4xl text-center sm:text-6xl font-extralight">
           Stressbehandling
         </h1>
 
-        <div className="grid grid-cols-3 gap-4 py-16">
-          <div className="col-span-2 mr-16">
+        <div className="grid-cols-3 gap-4 py-8 sm:py-16 sm:grid">
+          <div className="col-span-2 sm:mr-16">
             <div className="mb-14">
-              <h1 className="mb-4 text-3xl">Hvordan foregår en behandling?</h1>
+              <h1 className="mb-4 text-3xl text-center sm:text-left">Hvordan foregår en behandling?</h1>
               <p className=" font-extralight">
                 Stress kan antage mange former og opleves forskelligt fra person
                 til person, men fælles for alle stressede er, at det er en
@@ -34,7 +35,7 @@ const stressbehandling = () => {
 
             <div></div>
           </div>
-          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+          <div className="h-auto py-2 text-white rounded-md shadow-2xl bg-default shadow-black">
             <div className="m-10">
               <h1 className="text-3xl text-center">Generelt</h1>
               <p className="mt-10 font-extralight">

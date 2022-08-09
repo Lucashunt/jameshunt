@@ -5,10 +5,10 @@ import headerImage from "../public/JamesSortUdenBaggrund.jpg";
 const kontakt = () => {
   return (
     <div className="bg-background">
-      <div className="px-24">
-        <h1 className="py-8 text-5xl text-center font-extralight">Kontakt</h1>
+      <div className="px-10 sm:px-24">
+        <h1 className="py-8 text-4xl text-center sm:text-6xl font-extralight">Kontakt</h1>
 
-        <div className="grid-cols-3 gap-4 py-16 sm:grid">
+        <div className="grid-cols-3 gap-4 sm:py-16 sm:grid">
           <div className="col-span-2 sm:mr-16">
            
                
@@ -23,7 +23,7 @@ const kontakt = () => {
                     px-0.5
                     border-0 border-b-2 border-gray-400
                     focus:ring-0 focus:border-black
-                  " placeholder="James Hunt"/>
+                  " placeholder="James Hunt..."/>
               </label>
               <label className="block">
                 <span className="text-gray-700">Email</span>
@@ -47,7 +47,7 @@ const kontakt = () => {
                     px-0.5
                     border-0 border-b-2 border-gray-400
                     focus:ring-0 focus:border-black
-                  " placeholder="Tilmelding hold"/>
+                  " placeholder="Tilmelding hold..."/>
               </label>
               <label className="block">
                 <span className="text-gray-700">Additional details</span>
@@ -61,13 +61,13 @@ const kontakt = () => {
                     focus:ring-0 focus:border-black
                   " rows="3" placeholder="..."></textarea>
               </label>
-              <button className="flex px-5 py-3 mt-6 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 justify-self-center">
+              <button className="flex px-5 py-3 my-6 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 justify-self-center">
           <Link href="/">Send besked</Link>
         </button>
           </div>
             </div>
           </div>
-          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+          <div className="h-auto py-2 my-8 text-white rounded-md shadow-2xl sm:my-0 sm:py-0 bg-default shadow-black">
             <div className="m-10">
               <h1 className="text-3xl text-center">Kontakt info</h1>
               <p className="mt-10 font-extralight">

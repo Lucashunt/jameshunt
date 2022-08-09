@@ -5,17 +5,18 @@ import hav from "../../public/hav.jpeg";
 const kropsterapi = () => {
   return (
     <div className="bg-background">
-      <div className="px-24">
+      <div className="px-10 sm:px-24">
+        <div className="hidden sm:block">
         <Image alt="change" src={hav} placeholder="blur" priority />
-
-        <h1 className="my-8 text-6xl text-center font-extralight">
+        </div>
+        <h1 className="py-8 text-4xl text-center sm:text-6xl font-extralight">
           Krops Terapi
         </h1>
 
-        <div className="grid grid-cols-3 gap-4 py-16">
-          <div className="col-span-2 mr-16">
+        <div className="grid-cols-3 gap-4 py-8 sm:py-16 sm:grid">
+          <div className="col-span-2 sm:mr-16">
             <div className="mb-14">
-              <h1 className="mb-4 text-3xl">Hvordan foregår en behandling?</h1>
+              <h1 className="mb-4 text-3xl text-center sm:text-left">Hvordan foregår en behandling?</h1>
               <p className=" font-extralight">
                 Følelser lagres i kroppen som spændinger og kan gennem hele
                 livet reaktiveres som små hukommelses-myoser. Forbindelsen
@@ -51,7 +52,7 @@ const kropsterapi = () => {
 
             <div></div>
           </div>
-          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+          <div className="h-auto py-2 text-white rounded-md shadow-2xl bg-default shadow-black">
             <div className="m-10">
               <h1 className="text-3xl text-center">Generelt</h1>
               <p className="mt-10 font-extralight">
@@ -101,8 +102,8 @@ const kropsterapi = () => {
         <h1 className="mt-12 mb-8 text-4xl text-center font-extralight">
           Anmeldelser
         </h1>
-        <div className="grid grid-cols-3 gap-8 pb-8 text-white place-items-start">
-          <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+        <div className="grid-cols-3 gap-8 pb-8 text-white sm:grid place-items-start">
+          <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
               <div className="mx-8">
@@ -120,7 +121,7 @@ const kropsterapi = () => {
             </div>
           </div>
 
-          <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+          <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
               <div className="mx-8">
