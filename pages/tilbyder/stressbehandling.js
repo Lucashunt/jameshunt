@@ -35,8 +35,8 @@ const stressbehandling = () => {
 
             <div></div>
           </div>
-          <div className="h-auto py-2 text-white rounded-md shadow-2xl bg-default shadow-black">
-            <div className="m-10">
+          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+            <div className="p-6 sm:p-10">
               <h1 className="text-3xl text-center">Generelt</h1>
               <p className="mt-10 font-extralight">
                 <b>FORLØB:</b> <br />

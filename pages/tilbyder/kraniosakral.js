@@ -63,8 +63,8 @@ const kraniosakral = () => {
             </div>
             <div></div>
           </div>
-          <div className="h-auto py-2 text-white rounded-md shadow-2xl sm:py-0 sm bg-default shadow-black">
-            <div className="m-10">
+          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+            <div className="p-6 sm:p-10">
               <h1 className="text-3xl text-center">Priser</h1>
               <p className="mt-10 font-extralight">
                 En behandling varer ca. 60 minutter og koster 600 kr (Weekend
@@ -114,7 +114,7 @@ const kraniosakral = () => {
                         <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                             <div className="m-2">
                             <div className="text-4xl italic text-left">&quot;</div>
-                            <div className="mx-8">
+                            <div className="mx-4 sm:mx-8">
                             <p className="text-center font-extralight">Kære James, efter behandling hos dig har jeg bare ingen smerter. En fantastisk fornemmelse i min nakke. Jeg føler jeg kan dreje hovedet hele vejen rundt ;-). Tak tak tak. <br /> <br /></p>
                             <p className="italic font-thin text-center">- Maren Andreasen</p>
                             </div>
@@ -125,7 +125,7 @@ const kraniosakral = () => {
                         <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                             <div className="m-2">
                             <div className="text-4xl italic text-left">&quot;</div>
-                            <div className="mx-8">
+                            <div className="mx-4 sm:mx-8">
                             <p className="text-center font-extralight">Jeg bliver behandlet med Kranio-sakral terapi, på grund af en langvarig hjernerystelse (post commotionelt syndrom) og deraf følgende problemer med hovedpine, spændinger og stresstilstand i kroppen. Efter blot to behandlinger hos James, har jeg oplevet en forbedring i symptomniveau, og et generelt større velvære. Jeg oplever at behandlingen er med til at skubbe min krop (og hovedet) i den rigtige retning. KST er en yderst mild og behagelig behandlingsform, og min krop reagerer med en fantastisk ro og en enorm træthed efter behandlingen<br /> <br /></p>
                             <p className="italic font-thin text-center">- Signe Narp</p>
                             </div>
@@ -136,7 +136,7 @@ const kraniosakral = () => {
                         <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                             <div className="m-2">
                             <div className="text-4xl italic text-left">&quot;</div>
-                            <div className="mx-8">
+                            <div className="mx-4 sm:mx-8">
                             <p className="text-center font-extralight">James’ behandlinger møder min krop lige, hvor den er, hvilket for min krop betyder, at den føler sig mødt og dermed kan slippe spændingerne. Kan varmt anbefales.<br /> <br /></p>
                             <p className="italic font-thin text-center">- Anette, 57 år</p>
                             </div>

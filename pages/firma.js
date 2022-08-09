@@ -66,7 +66,7 @@ const firma = () => {
                 <div className="text-white transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
                   <div className="m-2">
                     <div className="text-4xl italic text-left">&quot;</div>
-                    <div className="mx-8">
+                    <div className="mx-4 sm:mx-8">
                       <p className="text-center font-extralight">
                         HVAD ENTEN I ØNSKER EN INTRODUKTION TIL ET TEAM-, LEDER-
                         ELLER FYRAFTENSMØDE, EN WORKSHOP ELLER ET FORLØB, KAN
@@ -83,8 +83,8 @@ const firma = () => {
 
             <div></div>
           </div>
-          <div className="h-auto py-2 text-white rounded-md shadow-2xl bg-default shadow-black">
-            <div className="m-10">
+          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+            <div className="p-6 sm:p-10">
               <h1 className="text-3xl text-center">Generelt</h1>
               <p className="mt-10 font-extralight">
                 <b>KONTAKT:</b>

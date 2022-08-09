@@ -52,8 +52,8 @@ const kropsterapi = () => {
 
             <div></div>
           </div>
-          <div className="h-auto py-2 text-white rounded-md shadow-2xl bg-default shadow-black">
-            <div className="m-10">
+          <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black">
+            <div className="p-6 sm:p-10">
               <h1 className="text-3xl text-center">Generelt</h1>
               <p className="mt-10 font-extralight">
                 <b>STED:</b> <br />
@@ -106,7 +106,7 @@ const kropsterapi = () => {
           <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
-              <div className="mx-8">
+              <div className="mx-4 sm:mx-8">
                 <p className="text-center font-extralight">
                   Kære James, efter behandling hos dig har jeg bare ingen
                   smerter. En fantastisk fornemmelse i min nakke. Jeg føler jeg
@@ -124,7 +124,7 @@ const kropsterapi = () => {
           <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
-              <div className="mx-8">
+              <div className="mx-4 sm:mx-8">
                 <p className="text-center font-extralight">
                   Jeg bliver behandlet med Kranio-sakral terapi, på grund af en
                   langvarig hjernerystelse (post commotionelt syndrom) og deraf
@@ -146,7 +146,7 @@ const kropsterapi = () => {
           <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
-              <div className="mx-8">
+              <div className="mx-4 sm:mx-8">
                 <p className="text-center font-extralight">
                   James’ behandlinger møder min krop lige, hvor den er, hvilket
                   for min krop betyder, at den føler sig mødt og dermed kan

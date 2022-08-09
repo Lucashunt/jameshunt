@@ -21,7 +21,7 @@ const videoGuides = () => {
           <Link href="#talks">Talks</Link>
         </button>
         </div>
-            <h1 className="pb-12 text-6xl text-center font-extralight" id="yoga">YOGA</h1>
+            <h1 className="pb-12 text-4xl text-center sm:text-6xl font-extralight" id="yoga">YOGA</h1>
 
     <div className="mb-10 App">
       
@@ -44,7 +44,7 @@ const videoGuides = () => {
       <YoutubeEmbed embedId="QbG_cPQvIXg" />
     </div>
 
-    <h1 className="py-12 text-6xl text-center font-extralight" id="meditation" >Meditation</h1>
+    <h1 className="py-12 text-4xl text-center sm:text-6xl font-extralight" id="meditation" >Meditation</h1>
     <div className="mb-10 App">
       
       <YoutubeEmbed embedId="QZUW9Uowicc" />
@@ -78,7 +78,7 @@ const videoGuides = () => {
     </div>
 
 
-    <h1 className="py-12 text-6xl text-center font-extralight" id="talks">Talks</h1>
+    <h1 className="py-12 text-4xl text-center sm:text-6xl font-extralight" id="talks">Talks</h1>
     <div className="mb-10 App">
       
       <YoutubeEmbed embedId="LGMkGezm78U" />

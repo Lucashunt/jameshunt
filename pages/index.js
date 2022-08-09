@@ -14,10 +14,10 @@ export default function Home() {
       <div className="px-10 py-6 sm:py-12 sm:px-24">
         <div className="">
           <div className="flex flex-col grid-cols-2 gap-12 sm:grid">
-            <div className="flex flex-col justify-center text-4xl leading-tight text-center sm:ml-10 sm:text-5xl font-extralight sm:text-left">
+            <div className="flex flex-col justify-center text-3xl leading-tight text-center sm:ml-10 sm:text-5xl font-extralight sm:text-left">
               Et problem kan ikke beskrives og løses med den tænkning, der har
               skabt det{" "}
-              <span className="mt-4 italic font-thin">- Albert Einstein</span>
+              <span className="mt-4 text-2xl italic font-thin sm:text-2xl">- Albert Einstein</span>
             </div>
             <div className="order-first sm:order-last">
               <Image alt="change" src={headerImage} placeholder="blur" priority />
@@ -53,7 +53,7 @@ export default function Home() {
 
       {/* 3 grid med de forskellige */}
 
-      <div className="mx-20 my-16 sm:my-40">
+      <div className="mx-10 my-16 sm:mx-20 sm:my-40">
 
         <div className="gap-8 sm:grid-cols-3 sm:grid ">
           <div className="mb-16 sm:mb-0">
@@ -61,7 +61,7 @@ export default function Home() {
               Kraniosakral Terapi
             </h1>
             <Image alt="change" src={gridImgOne} placeholder="blur" />
-            <p className="mx-10 mt-2 text-center font-extralight">
+            <p className="mt-2 text-center sm:mx-10 font-extralight">
               Det blide tryg med den store virkning
             </p>
             <div className="flex justify-center">
@@ -75,7 +75,7 @@ export default function Home() {
               Krops Terapi
             </h1>
             <Image alt="change" src={gridImgTwo} placeholder="blur" />
-            <p className="mx-10 mt-2 text-center font-extralight">
+            <p className="mt-2 text-center sm:mx-10 font-extralight">
               En helhedsorienteret måde at arbejde med krop og psyke på
             </p>
             <div className="flex justify-center">
@@ -89,7 +89,7 @@ export default function Home() {
               Yoga & meditation
             </h1>
             <Image alt="change" src={gridImgThree} placeholder="blur" />
-            <p className="mx-10 mt-2 text-center font-extralight">
+            <p className="mt-2 text-center sm:mx-10 font-extralight">
               Yoga, meditationer og afspændinger
             </p>
             <div className="flex justify-center">
@@ -104,7 +104,7 @@ export default function Home() {
       {/* Facebook del */}
 
       <div className="flex items-center justify-center bg-white h-80">
-        <h1 className="text-4xl sm:text-5xl sm:mr-6 font-extralight hover:text-black/50">
+        <h1 className="text-4xl text-center sm:text-5xl sm:mr-6 font-extralight hover:text-black/50">
           <Link href="https://www.facebook.com/Jameshunt.dk">
             Find mig på facebook
           </Link>
@@ -131,7 +131,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center h-96 font-extralight">
         <h1 className="text-4xl sm:text-5xl">Skriv endelig til mig</h1>
         <button className="px-5 py-3 mt-12 text-white transition duration-300 rounded-md bg-default hover:bg-default/60">
-          <Link href="/">Kontakt mig</Link>
+          <Link href="/kontakt">Kontakt mig</Link>
         </button>
       </div>
     </div>

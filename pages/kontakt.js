@@ -67,8 +67,8 @@ const kontakt = () => {
           </div>
             </div>
           </div>
-          <div className="h-auto py-2 my-8 text-white rounded-md shadow-2xl sm:my-0 sm:py-0 bg-default shadow-black">
-            <div className="m-10">
+          <div className="h-auto my-8 text-white rounded-md shadow-2xl sm:my-0 bg-default shadow-black">
+            <div className="p-6 sm:p-10">
               <h1 className="text-3xl text-center">Kontakt info</h1>
               <p className="mt-10 font-extralight">
               James Ingemann Hunt<br />
