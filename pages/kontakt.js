@@ -12,7 +12,7 @@ const kontakt = () => {
           <div className="col-span-2 sm:mr-16">
            
                
-                <div className="max-w-lg mt-8">
+                <div className="max-w-lg">
             <div className="grid grid-cols-1 gap-6 ">
               <label className="block">
                 <span className="text-gray-700">Navn</span>

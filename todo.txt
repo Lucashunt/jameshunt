@@ -1,3 +1,4 @@
-1. <Head> på hver side 
+1. <Head> på hver side SEO
 2. Footer
 3. Lille logo
+4. Kontaktformular 
