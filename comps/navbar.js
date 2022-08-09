@@ -27,7 +27,7 @@ const Navbars = () => {
     
     <div className="bg-background">
     <div className="pt-6 text-4xl font-bold tracking-wide text-center text-default"><Link href="/"> James Hunt</Link></div>
-    <div className="flex items-center justify-center py-4 font-light">
+    <div className="flex items-center justify-center py-4 text-xs font-light sm:text-base text">
       
         <ul className="flex">
         <Menu as="div" className="">
@@ -51,7 +51,7 @@ const Navbars = () => {
                     <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="http://localhost:3000/tilbyder/kraniosakral"
+                            href="http://jameshunt.vercel.app/tilbyder/kraniosakral"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Kranio-Sakral Terapi
@@ -61,7 +61,7 @@ const Navbars = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="http://localhost:3000/tilbyder/kropsterapi"
+                            href="http://jameshunt.vercel.app/tilbyder/kropsterapi"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Krops Terapi
@@ -71,7 +71,7 @@ const Navbars = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="http://localhost:3000/tilbyder/sleep"
+                            href="http://jameshunt.vercel.app/tilbyder/sleep"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Søvn
@@ -81,7 +81,7 @@ const Navbars = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="http://localhost:3000/tilbyder/stressbehandling"
+                            href="http://jameshunt.vercel.app/tilbyder/stressbehandling"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Stressbehandling
