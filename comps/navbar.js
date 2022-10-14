@@ -25,7 +25,8 @@ const Navbars = () => {
     </Head>
 
     
-    <div className="bg-background">
+    <div className="bg-background sticky z-10 ">
+      
     <div className="pt-6 text-4xl font-bold tracking-wide text-center text-default"><Link href="/"> James Hunt</Link></div>
     <div className="flex items-center justify-center py-4 text-sm font-light sm:text-base text">
       
@@ -51,7 +52,17 @@ const Navbars = () => {
                     <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="http://jameshunt.vercel.app/tilbyder/kraniosakral"
+                            href="/tilbyder/hold"
+                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                          >
+                            Mine hold
+                          </a>
+                        )}
+                      </Menu.Item>
+                    <Menu.Item>
+                        {({ active }) => (
+                          <a
+                            href="/tilbyder/kraniosakral"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Kranio-Sakral Terapi
@@ -61,7 +72,7 @@ const Navbars = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="http://jameshunt.vercel.app/tilbyder/kropsterapi"
+                            href="/tilbyder/kropsterapi"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Krops Terapi
@@ -71,7 +82,7 @@ const Navbars = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="http://jameshunt.vercel.app/tilbyder/sleep"
+                            href="tilbyder/sleep"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Søvn
@@ -81,7 +92,7 @@ const Navbars = () => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="http://jameshunt.vercel.app/tilbyder/stressbehandling"
+                            href="/tilbyder/stressbehandling"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Stressbehandling
@@ -108,6 +119,7 @@ const Navbars = () => {
         </ul>
     </div>
     </div>
+   
     </>
           )}
           </Disclosure>

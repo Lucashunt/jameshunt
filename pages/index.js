@@ -56,6 +56,20 @@ export default function Home() {
       <div className="mx-10 my-16 sm:mx-20 sm:my-40">
 
         <div className="gap-8 sm:grid-cols-3 sm:grid ">
+        <div className="mb-16 sm:mb-0">
+            <h1 className="mb-4 text-3xl text-center font-extralight">
+              Mine hold
+            </h1>
+            <Image alt="change" src={gridImgOne} placeholder="blur" />
+            <p className="mt-2 text-center sm:mx-10 font-extralight">
+              Mine hold og priser
+            </p>
+            <div className="flex justify-center">
+              <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
+                <Link href="/tilbyder/hold">Læs mere</Link>
+              </button>
+            </div>
+          </div>
           <div className="mb-16 sm:mb-0">
             <h1 className="mb-4 text-3xl text-center font-extralight">
               Kraniosakral Terapi
@@ -84,17 +98,31 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="">
+          <div className="sm:mt-20 mb-16 sm:mb-0">
             <h1 className="mb-4 text-3xl text-center font-extralight">
-              Yoga & meditation
+              Stressbehandling
             </h1>
             <Image alt="change" src={gridImgThree} placeholder="blur" />
             <p className="mt-2 text-center sm:mx-10 font-extralight">
-              Yoga, meditationer og afspændinger
+              Lær at forstå din stress
             </p>
             <div className="flex justify-center">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
                 <Link href="/tilbyder/stressbehandling">Læs mere</Link>
+              </button>
+            </div>
+          </div>
+          <div className="sm:mt-20 mb-16 sm:mb-0">
+            <h1 className="mb-4 text-3xl text-center font-extralight">
+              Søvn
+            </h1>
+            <Image alt="change" src={gridImgThree} placeholder="blur" />
+            <p className="mt-2 text-center sm:mx-10 font-extralight">
+              Søvnbehandling 
+            </p>
+            <div className="flex justify-center">
+              <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
+                <Link href="/tilbyder/sleep">Læs mere</Link>
               </button>
             </div>
           </div>
@@ -103,13 +131,13 @@ export default function Home() {
 
       {/* Facebook del */}
 
-      <div className="flex items-center justify-center bg-white h-80">
+      <div className="flex items-center justify-around sm:justify-center bg-white h-80">
         <h1 className="text-4xl text-center sm:text-5xl sm:mr-6 font-extralight hover:text-black/50">
-          <Link href="https://www.facebook.com/Jameshunt.dk">
-            Find mig på facebook
+          <Link href="https://www.facebook.com/yoganord.dk">
+            <a>Find mig på facebook</a>
           </Link>
         </h1>
-        <Link href="https://www.facebook.com/Jameshunt.dk">
+        <Link href="https://www.facebook.com/yoganord.dk">
           <svg
             className="fill-blue-500 hover:fill-blue-500/50"
             xmlns="http://www.w3.org/2000/svg"
