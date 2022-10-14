@@ -4,7 +4,8 @@ import { toast } from 'react-hot-toast';
 
 
 
-const kontakt = () => {
+const Kontakt = () => {
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -107,4 +108,4 @@ Tel: 42531104
   );
 };
 
-export default kontakt;
+export default Kontakt;
