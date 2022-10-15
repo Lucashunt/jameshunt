@@ -6,13 +6,11 @@ const Hold = () => {
   return (
     <div className="bg-background">
       <div className="px-10 sm:px-24">
-        <div className="hidden sm:block">
-          <Image alt="change" src={Kranio} placeholder="blur" priority />
-        </div>
-        <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">
+
+        <h1 className="text-4xl sm:text-7xl text-center font-extralight py-20 mt-20 rounded-3xl bg-gray-400/20">
           Mine hold
         </h1>
-<div className="flex sm:flex-row justify-center items-center sm:mb-36 flex-col mb-20">
+<div className="flex sm:flex-row justify-center items-center flex-col my-28">
         <Link href="#hold">   
           <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
          <a>Hold</a>
@@ -27,11 +25,11 @@ const Hold = () => {
         </button></Link>
         </div>
 
-        <div className="grid sm:grid-cols-3 gap-10 sm:my-20 my-40">
+        <div className="grid sm:grid-cols-3 gap-10">
           <div className="col-span-1 flex flex-col items-center sm:items-start">
             <div>
               <h3 className="text-center sm:text-left text-3xl ">Mandag</h3>
-              <ul className="font-extralight mt-4">
+              <ul className="font-extralight mt-4 text-center sm:text-left">
                 <li>Tid: kl 9.00-10:30</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
                 <li>Form: Yin og blide bevægelser</li>
@@ -41,12 +39,12 @@ const Hold = () => {
           <div className="col-span-1 flex flex-col items-center">
             <div>
               <h3 className="text-center sm:text-left text-3xl " id="hold">Tirsdag</h3>
-              <ul className="font-extralight mt-4">
+              <ul className="font-extralight mt-4 text-center sm:text-left">
                 <li>Tid: kl 9.30-11:00</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
                 <li>Form: Yin og blide bevægelser</li>
               </ul>
-              <ul className="font-extralight mt-4">
+              <ul className="font-extralight mt-4 text-center sm:text-left">
                 <li>Tid: kl 19:00-20:30</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
                 <li>Form: Yin og blide bevægelser</li>
@@ -56,7 +54,7 @@ const Hold = () => {
           <div className="col-span-1 flex flex-col  items-center sm:items-end">
             <div>
               <h3 className="text-center sm:text-left text-3xl">Torsdag</h3>
-              <ul className="font-extralight mt-4">
+              <ul className="font-extralight mt-4 text-center sm:text-left">
                 <li>Tid: kl 10.00-10:30</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
                 <li>Form: Yin og blide bevægelser</li>
@@ -65,7 +63,7 @@ const Hold = () => {
           </div>
         </div>
 
-        <div className="grid sm:grid-cols-3 sm:mt-16 gap-10">
+        <div className="grid sm:grid-cols-3 mt-32 gap-10">
           <div className="col-span-1 flex flex-col items-center">
             <div>
               <h3 className="text-center sm:text-left text-3xl ">

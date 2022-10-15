@@ -6,7 +6,7 @@ import  { Toaster } from 'react-hot-toast';
 
 function MyApp({ Component, pageProps }) {
   return (
-<div>
+<div className='bg-background scroll-smooth'>
     <Layout>
         <Component {...pageProps} />
     </Layout>

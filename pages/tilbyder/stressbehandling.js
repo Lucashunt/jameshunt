@@ -6,10 +6,8 @@ const stressbehandling = () => {
   return (
     <div className="bg-background">
       <div className="px-10 sm:px-24">
-        <div className="hidden sm:block">
-        <Image alt="change" src={bro} placeholder="blur" priority />
-        </div>
-        <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">
+
+        <h1 className="sm:text-7xl text-center font-extralight py-20 my-20 rounded-3xl text-4xl bg-orange-300/20">
           Stressbehandling
         </h1>
 
