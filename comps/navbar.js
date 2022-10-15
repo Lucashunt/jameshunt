@@ -27,7 +27,7 @@ const Navbars = () => {
     
     <div className="bg-background sticky z-10 ">
       
-    <div className="pt-6 text-4xl font-bold tracking-wide text-center text-default"><Link href="/"> James Hunt</Link></div>
+    <div className="pt-6 text-4xl font-bold tracking-wide text-center text-default"><Link href="/"><a> James Hunt</a></Link></div>
     <div className="flex items-center justify-center py-4 text-sm font-light sm:text-base text">
       
         <ul className="flex">

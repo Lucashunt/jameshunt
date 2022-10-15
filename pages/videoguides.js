@@ -9,16 +9,16 @@ const videoGuides = () => {
               <div className="flex flex-col items-center justify-center my-10 sm:flex-row">
               <h2 className="mb-4 mr-3 text-4xl font-thin sm:mb-0">Gå til:</h2>         
           <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-          <Link href="#yoga">Yoga</Link>
+          <Link href="#yoga"><a>Yoga</a></Link>
         </button>
         <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-          <Link href="#meditation">Meditation</Link>
+          <Link href="#meditation"><a>Meditation</a></Link>
         </button>
         <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-          <Link href="#relax">Afspænding</Link>
+          <Link href="#relax"><a>Afspænding</a></Link>
         </button>
         <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-          <Link href="#talks">Talks</Link>
+          <Link href="#talks"><a>Talks</a></Link>
         </button>
         </div>
             <h1 className="pb-12 text-4xl text-center sm:text-6xl font-extralight" id="yoga">YOGA</h1>

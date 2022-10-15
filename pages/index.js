@@ -66,7 +66,7 @@ export default function Home() {
             </p>
             <div className="flex justify-center">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/hold">Læs mere</Link>
+                <Link href="/tilbyder/hold"><a>Læs mere</a></Link>
               </button>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
             </p>
             <div className="flex justify-center">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/kraniosakral">Læs mere</Link>
+                <Link href="/tilbyder/kraniosakral"><a>Læs mere</a></Link>
               </button>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default function Home() {
             </p>
             <div className="flex justify-center">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/kropsterapi">Læs mere</Link>
+                <Link href="/tilbyder/kropsterapi"><a>Læs mere</a></Link>
               </button>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function Home() {
             </p>
             <div className="flex justify-center">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/stressbehandling">Læs mere</Link>
+                <Link href="/tilbyder/stressbehandling"><a>Læs mere</a></Link>
               </button>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function Home() {
             </p>
             <div className="flex justify-center">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/sleep">Læs mere</Link>
+                <Link href="/tilbyder/sleep"><a>Læs mere</a></Link>
               </button>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center h-96 font-extralight">
         <h1 className="text-4xl sm:text-5xl">Skriv endelig til mig</h1>
         <button className="px-5 py-3 mt-12 text-white transition duration-300 rounded-md bg-default hover:bg-default/60">
-          <Link href="/kontakt">Kontakt mig</Link>
+          <Link href="/kontakt"><a>Kontakt mig</a></Link>
         </button>
       </div>
     </div>
