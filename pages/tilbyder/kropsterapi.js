@@ -102,7 +102,21 @@ const kropsterapi = () => {
         <h1 className="mt-12 mb-8 text-4xl text-center font-extralight">
           Anmeldelser
         </h1>
+        
         <div className="grid-cols-3 gap-8 pb-8 text-white sm:grid place-items-start">
+        <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+            <div className="m-2">
+              <div className="text-4xl italic text-left">&quot;</div>
+              <div className="mx-4 sm:mx-8">
+                <p className="text-center font-extralight">
+                Jeg har haft en virkelig god oplevelse med triggerpunkts-massage hos James, og han har også lært mig hvordan jeg selv kan arbejde med triggerpunkter i kroppen. Det er muligt at behandle egne triggerpunkter, men det kan i høj grad anbefales at få James hjælp til at finde de punkter, der skaber smerter i kroppen, samt at få den dybdegående behandling af disse punkter, som man vanskeligt selv kan klare. Han er en fantastisk dygtig behandler, fordi han forstår at koble forskellige teknikker, samt at bruge samtale til at komme bagom de problematikker der er i kroppen. Det er dybt motiverende at få hans hjælp til at arbejde med sin egen krop.
+                  <br /> <br />
+                </p>
+                <p className="italic font-thin text-center">- Signe Narp</p>
+              </div>
+              <div className="h-5 text-4xl italic text-right">&quot;</div>
+            </div>
+          </div>
           <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
@@ -121,39 +135,32 @@ const kropsterapi = () => {
             </div>
           </div>
 
-          <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
-            <div className="m-2">
-              <div className="text-4xl italic text-left">&quot;</div>
-              <div className="mx-4 sm:mx-8">
-                <p className="text-center font-extralight">
-                  Jeg bliver behandlet med Kranio-sakral terapi, på grund af en
-                  langvarig hjernerystelse (post commotionelt syndrom) og deraf
-                  følgende problemer med hovedpine, spændinger og stresstilstand
-                  i kroppen. Efter blot to behandlinger hos James, har jeg
-                  oplevet en forbedring i symptomniveau, og et generelt større
-                  velvære. Jeg oplever at behandlingen er med til at skubbe min
-                  krop (og hovedet) i den rigtige retning. KST er en yderst mild
-                  og behagelig behandlingsform, og min krop reagerer med en
-                  fantastisk ro og en enorm træthed efter behandlingen
-                  <br /> <br />
-                </p>
-                <p className="italic font-thin text-center">- Signe Narp</p>
-              </div>
-              <div className="h-5 text-4xl italic text-right">&quot;</div>
-            </div>
-          </div>
+
 
           <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
               <div className="mx-4 sm:mx-8">
                 <p className="text-center font-extralight">
-                  James’ behandlinger møder min krop lige, hvor den er, hvilket
+                  James behandlinger møder min krop lige, hvor den er, hvilket
                   for min krop betyder, at den føler sig mødt og dermed kan
                   slippe spændingerne. Kan varmt anbefales.
                   <br /> <br />
                 </p>
                 <p className="italic font-thin text-center">- Anette, 57 år</p>
+              </div>
+              <div className="h-5 text-4xl italic text-right">&quot;</div>
+            </div>
+          </div>
+          <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80 sm:mt-0 mt-4">
+            <div className="m-2">
+              <div className="text-4xl italic text-left">&quot;</div>
+              <div className="mx-4 sm:mx-8">
+                <p className="text-center font-extralight">
+                Jeg oplever i mine behandlinger hos James Hunt, at der er en stor ro og klarhed i hans tilgang til de problematikker som kroppen måtte have. James ER 100 procent tilstede, som en ren videreformidler af de informationer, som han mærker i kroppen. En meget forløsende kropsterapi, hvor du som klient rummes med stor omsorg.
+                  <br /> <br />
+                </p>
+                <p className="italic font-thin text-center">-  Janne Damgaard</p>
               </div>
               <div className="h-5 text-4xl italic text-right">&quot;</div>
             </div>

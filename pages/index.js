@@ -33,15 +33,15 @@ export default function Home() {
         <div className="col-span-2">
           <div className="flex items-center text-4xl leading-tight text-center sm:text-5xl h-80 font-extralight">
             <h1>
-              <span className="underline underline-offset-2 decoration-2">
+              <span className="">
                 Opmærksomhed
               </span>
               ,{" "}
-              <span className="underline underline-offset-2 decoration-2">
+              <span className="">
                 udholdenhed
               </span>{" "}
               og{" "}
-              <span className="underline underline-offset-2 decoration-2">
+              <span className="">
                 balance
               </span>{" "}
               i livet
@@ -72,20 +72,6 @@ export default function Home() {
           </div>
           <div className="mb-16 sm:mb-0">
             <h1 className="mb-4 text-3xl text-center font-extralight">
-              Kraniosakral Terapi
-            </h1>
-            <Image alt="change" src={gridImgOne} placeholder="blur" />
-            <p className="mt-2 text-center sm:mx-10 font-extralight">
-              Det blide tryg med den store virkning
-            </p>
-            <div className="flex justify-center">
-              <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/kraniosakral"><a>Læs mere</a></Link>
-              </button>
-            </div>
-          </div>
-          <div className="mb-16 sm:mb-0">
-            <h1 className="mb-4 text-3xl text-center font-extralight">
               Krops Terapi
             </h1>
             <Image alt="change" src={gridImgTwo} placeholder="blur" />
@@ -98,6 +84,21 @@ export default function Home() {
               </button>
             </div>
           </div>
+          <div className="mb-16 sm:mb-0">
+            <h1 className="mb-4 text-3xl text-center font-extralight">
+              Kraniosakral Terapi
+            </h1>
+            <Image alt="change" src={gridImgOne} placeholder="blur" />
+            <p className="mt-2 text-center sm:mx-10 font-extralight">
+              Det blide tryg med den store virkning
+            </p>
+            <div className="flex justify-center">
+              <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
+                <Link href="/tilbyder/kraniosakral"><a>Læs mere</a></Link>
+              </button>
+            </div>
+          </div>
+
           <div className="sm:mt-20 mb-16 sm:mb-0">
             <h1 className="mb-4 text-3xl text-center font-extralight">
               Stressbehandling
@@ -157,7 +158,7 @@ export default function Home() {
       {/* Kontakt sektion */}
 
       <div className="flex flex-col items-center justify-center h-96 font-extralight">
-        <h1 className="text-4xl sm:text-5xl">Skriv endelig til mig</h1>
+        <h1 className="text-4xl sm:text-5xl">Skriv til mig</h1>
         <button className="px-5 py-3 mt-12 text-white transition duration-300 rounded-md bg-default hover:bg-default/60">
           <Link href="/kontakt"><a>Kontakt mig</a></Link>
         </button>

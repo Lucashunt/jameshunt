@@ -67,6 +67,14 @@ const kraniosakral = () => {
             <div className="p-6 sm:p-10">
               <h1 className="text-3xl text-center">Priser</h1>
               <p className="mt-10 font-extralight">
+              <b>STED:</b> <br />
+                Jeg har behandling i Helsinge og Smidsstrup.
+                <br />
+                Helsinge – Nørretofte 20, 3200 Helsinge
+                <br />
+                Smidsstrup – Digeshøj 7A, 3250 Gilleje (privat)
+                <br />
+                <br />
                 En behandling varer ca. 60 minutter og koster 600 kr (Weekend
                 700) <br />
                 <br />
@@ -91,7 +99,7 @@ const kraniosakral = () => {
                 </Link>
                 <br />
                 <br />
-                Se mere om hvad Kranio-sakral terapi er{" "}
+                Læs mere om Kranio-sakral terapi hos kraniodanmark{" "}
                 <Link href="https://kraniodanmark.dk">
                   <a className="font-bold text-blue-500 hover:text-blue-500/50">
                     her
@@ -137,7 +145,7 @@ const kraniosakral = () => {
                             <div className="m-2">
                             <div className="text-4xl italic text-left">&quot;</div>
                             <div className="mx-4 sm:mx-8">
-                            <p className="text-center font-extralight">James’ behandlinger møder min krop lige, hvor den er, hvilket for min krop betyder, at den føler sig mødt og dermed kan slippe spændingerne. Kan varmt anbefales.<br /> <br /></p>
+                            <p className="text-center font-extralight">James behandlinger møder min krop lige, hvor den er, hvilket for min krop betyder, at den føler sig mødt og dermed kan slippe spændingerne. Kan varmt anbefales.<br /> <br /></p>
                             <p className="italic font-thin text-center">- Anette, 57 år</p>
                             </div>
                             <div className="h-5 text-4xl italic text-right">&quot;</div>
