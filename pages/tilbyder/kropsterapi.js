@@ -104,19 +104,23 @@ const kropsterapi = () => {
         </h1>
         
         <div className="grid-cols-3 gap-8 pb-8 text-white sm:grid place-items-start">
-        <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+          <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
               <div className="mx-4 sm:mx-8">
                 <p className="text-center font-extralight">
-                Jeg har haft en virkelig god oplevelse med triggerpunkts-massage hos James, og han har også lært mig hvordan jeg selv kan arbejde med triggerpunkter i kroppen. Det er muligt at behandle egne triggerpunkter, men det kan i høj grad anbefales at få James hjælp til at finde de punkter, der skaber smerter i kroppen, samt at få den dybdegående behandling af disse punkter, som man vanskeligt selv kan klare. Han er en fantastisk dygtig behandler, fordi han forstår at koble forskellige teknikker, samt at bruge samtale til at komme bagom de problematikker der er i kroppen. Det er dybt motiverende at få hans hjælp til at arbejde med sin egen krop.
+                Da jeg kom til James første gang havde jeg en fastlåst nakke og smerter. Nu kan jeg bevæge nakken uden smerter. 
+James arbejder holistisk og kan få bugt med mange skavanker før de udvikler sig. 
+Varm anbefaling af en kompetent behandler. 
+ 
                   <br /> <br />
                 </p>
-                <p className="italic font-thin text-center">- Signe Narp</p>
+                <p className="italic font-thin text-center">- Maria Justiniano</p>
               </div>
               <div className="h-5 text-4xl italic text-right">&quot;</div>
             </div>
           </div>
+
           <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
@@ -152,6 +156,20 @@ const kropsterapi = () => {
               <div className="h-5 text-4xl italic text-right">&quot;</div>
             </div>
           </div>
+          <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+            <div className="m-2">
+              <div className="text-4xl italic text-left">&quot;</div>
+              <div className="mx-4 sm:mx-8">
+                <p className="text-center font-extralight">
+                Jeg kontaktede James da jeg havde begyndende symptomer i krop & sind på stress. James er utrolig intuitiv og har en evne til at finde de områder hvor ens krop virkelig har brug for noget ekstra opmærksomhed via hans kropsbehandling. 
+Samtidig har jeg fået forskellige øvelser som jeg arbejder med hjemme der giver mere ro i sind & krop. Kan kun på det varmeste anbefale James som behandler. 
+                  <br /> <br />
+                </p>
+                <p className="italic font-thin text-center">- Karin Hansen</p>
+              </div>
+              <div className="h-5 text-4xl italic text-right">&quot;</div>
+            </div>
+          </div>
           <div className="transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80 sm:mt-0 mt-4">
             <div className="m-2">
               <div className="text-4xl italic text-left">&quot;</div>
@@ -161,6 +179,19 @@ const kropsterapi = () => {
                   <br /> <br />
                 </p>
                 <p className="italic font-thin text-center">-  Janne Damgaard</p>
+              </div>
+              <div className="h-5 text-4xl italic text-right">&quot;</div>
+            </div>
+          </div>
+          <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+            <div className="m-2">
+              <div className="text-4xl italic text-left">&quot;</div>
+              <div className="mx-4 sm:mx-8">
+                <p className="text-center font-extralight">
+                Jeg har haft en virkelig god oplevelse med triggerpunkts-massage hos James, og han har også lært mig hvordan jeg selv kan arbejde med triggerpunkter i kroppen. Det er muligt at behandle egne triggerpunkter, men det kan i høj grad anbefales at få James hjælp til at finde de punkter, der skaber smerter i kroppen, samt at få den dybdegående behandling af disse punkter, som man vanskeligt selv kan klare. Han er en fantastisk dygtig behandler, fordi han forstår at koble forskellige teknikker, samt at bruge samtale til at komme bagom de problematikker der er i kroppen. Det er dybt motiverende at få hans hjælp til at arbejde med sin egen krop.
+                  <br /> <br />
+                </p>
+                <p className="italic font-thin text-center">- Signe Narp</p>
               </div>
               <div className="h-5 text-4xl italic text-right">&quot;</div>
             </div>

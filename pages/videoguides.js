@@ -7,19 +7,23 @@ const videoGuides = () => {
             <div className="mx-8 sm:mx-48">
               <h1 className="py-16 text-4xl tracking-wide text-center sm:text-6xl font-extralight">Videoguides</h1>
               <div className="flex flex-col items-center justify-center my-10 sm:flex-row">
-              <h2 className="mb-4 mr-3 text-4xl font-thin sm:mb-0">Gå til:</h2>         
+              <h2 className="mb-4 mr-3 text-4xl font-thin sm:mb-0">Gå til:</h2>      
+              <Link href="#yoga">   
           <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-          <Link href="#yoga"><a>Yoga</a></Link>
-        </button>
+         <a>Yoga</a>
+        </button></Link>
+        <Link href="#meditation">
         <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-          <Link href="#meditation"><a>Meditation</a></Link>
-        </button>
+          <a>Meditation</a>
+        </button></Link>
+        <Link href="#relax">
         <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-          <Link href="#relax"><a>Afspænding</a></Link>
-        </button>
+          <a>Afspænding</a>
+        </button></Link>
+        <Link href="#talks">
         <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-          <Link href="#talks"><a>Talks</a></Link>
-        </button>
+          <a>Talks</a>
+        </button></Link>
         </div>
             <h1 className="pb-12 text-4xl text-center sm:text-6xl font-extralight" id="yoga">YOGA</h1>
 

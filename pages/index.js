@@ -65,9 +65,10 @@ export default function Home() {
               Mine hold og priser
             </p>
             <div className="flex justify-center">
+            <Link href="/tilbyder/hold">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/hold"><a>Læs mere</a></Link>
-              </button>
+                <a>Læs mere</a>
+              </button></Link>
             </div>
           </div>
           <div className="mb-16 sm:mb-0">
@@ -79,9 +80,10 @@ export default function Home() {
               En helhedsorienteret måde at arbejde med krop og psyke på
             </p>
             <div className="flex justify-center">
+            <Link href="/tilbyder/kropsterapi">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/kropsterapi"><a>Læs mere</a></Link>
-              </button>
+                <a>Læs mere</a>
+              </button></Link>
             </div>
           </div>
           <div className="mb-16 sm:mb-0">
@@ -93,9 +95,10 @@ export default function Home() {
               Det blide tryg med den store virkning
             </p>
             <div className="flex justify-center">
+            <Link href="/tilbyder/kraniosakral">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/kraniosakral"><a>Læs mere</a></Link>
-              </button>
+                <a>Læs mere</a>
+              </button></Link>
             </div>
           </div>
 
@@ -108,9 +111,10 @@ export default function Home() {
               Lær at forstå din stress
             </p>
             <div className="flex justify-center">
+            <Link href="/tilbyder/stressbehandling">
               <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/stressbehandling"><a>Læs mere</a></Link>
-              </button>
+                <a>Læs mere</a>
+              </button></Link>
             </div>
           </div>
           <div className="sm:mt-20 mb-16 sm:mb-0">
@@ -122,9 +126,9 @@ export default function Home() {
               Søvnbehandling 
             </p>
             <div className="flex justify-center">
-              <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <Link href="/tilbyder/sleep"><a>Læs mere</a></Link>
-              </button>
+            <Link href="/tilbyder/sleep"><button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
+               <a>Læs mere</a>
+              </button></Link>
             </div>
           </div>
         </div>
@@ -159,9 +163,10 @@ export default function Home() {
 
       <div className="flex flex-col items-center justify-center h-96 font-extralight">
         <h1 className="text-4xl sm:text-5xl">Skriv til mig</h1>
+        <Link href="/kontakt" passHref>
         <button className="px-5 py-3 mt-12 text-white transition duration-300 rounded-md bg-default hover:bg-default/60">
-          <Link href="/kontakt"><a>Kontakt mig</a></Link>
-        </button>
+          <a>Kontakt mig</a>
+        </button></Link>
       </div>
     </div>
   );

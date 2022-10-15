@@ -12,10 +12,22 @@ const Hold = () => {
         <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">
           Mine hold
         </h1>
-        <h2 className="text-4xl font-extralight sm:pt-16 mb-6 underline decoration-1 underline-offset-2">
-          Hold
-        </h2>
-        <div className="grid sm:grid-cols-3 sm:my-16 gap-10">
+<div className="flex sm:flex-row justify-center items-center sm:mb-36 flex-col mb-20">
+        <Link href="#hold">   
+          <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
+         <a>Hold</a>
+        </button></Link>
+        <Link href="#beskrivelser">   
+          <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
+         <a>Beskrivelser</a>
+        </button></Link>
+        <Link href="#priser">   
+          <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
+         <a>Priser</a>
+        </button></Link>
+        </div>
+
+        <div className="grid sm:grid-cols-3 gap-10 sm:my-20 my-40">
           <div className="col-span-1 flex flex-col items-center sm:items-start">
             <div>
               <h3 className="text-center sm:text-left text-3xl ">Mandag</h3>
@@ -28,7 +40,7 @@ const Hold = () => {
           </div>
           <div className="col-span-1 flex flex-col items-center">
             <div>
-              <h3 className="text-center sm:text-left text-3xl ">Tirsdag</h3>
+              <h3 className="text-center sm:text-left text-3xl " id="hold">Tirsdag</h3>
               <ul className="font-extralight mt-4">
                 <li>Tid: kl 9.30-11:00</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
@@ -52,9 +64,7 @@ const Hold = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-4xl font-extralight sm:pt-16 underline decoration-1 underline-offset-2 mb-6 pt-32">
-          Beskrivelse
-        </h2>
+
         <div className="grid sm:grid-cols-3 sm:mt-16 gap-10">
           <div className="col-span-1 flex flex-col items-center">
             <div>
@@ -79,7 +89,7 @@ const Hold = () => {
           </div>
           <div className="col-span-1 flex flex-col items-center">
             <div>
-              <h3 className="text-center sm:text-left text-3xl">Hatha Yoga</h3>
+              <h3 className="text-center sm:text-left text-3xl" id="beskrivelser">Hatha Yoga</h3>
               <p className="font-extralight mt-4">
                 I mindful Hatha kombinere vi de styrkende øvelser, med lange
                 stræk og blide bevægelser. Det udadvendte aktive, med det
@@ -109,7 +119,7 @@ const Hold = () => {
         <div className="flex justify-center sm:mt-20 mt-10">
           <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black my-10 sm:w-1/2">
             <div className="p-6 sm:p-10">
-              <h1 className="text-3xl text-center mb-10">Priser</h1>
+              <h1 className="text-3xl text-center mb-10" id="priser">Priser</h1>
               <h3>Sæsontilmelding 2022</h3>
               <p className="font-extralight mt-2">
                 Ved sæson tilmelding koster det 110 kr pr gang ved samlet
