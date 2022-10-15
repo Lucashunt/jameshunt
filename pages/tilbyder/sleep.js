@@ -6,10 +6,7 @@ const sleep = () => {
   return (
     <div className="bg-background">
       <div className="px-10 sm:px-24">
-        <div className="hidden sm:block">
-        <Image alt="change" src={skov} placeholder="blur" priority />
-        </div>
-        <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">Søvn</h1>
+        <h1 className="text-7xl text-center font-extralight py-40">Søvn</h1>
 
         <div className="grid-cols-3 gap-4 sm:grid sm:py-8">
           <div className="col-span-2 sm:mr-16">
