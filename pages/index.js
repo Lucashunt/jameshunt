@@ -10,6 +10,12 @@ export default function Home() {
   return (
     <div className=" bg-background">
       {/* Header sektion */}
+      <Head>
+        <title>Forside</title>
+        <meta name="description" content="Forside" />
+        <meta charSet="utf-8" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
       <div className="px-10 py-6 sm:py-12 sm:px-24">
         <div className="">
