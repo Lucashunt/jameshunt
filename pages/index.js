@@ -61,13 +61,11 @@ export default function Home() {
 
       <div className="mx-10 my-16 sm:mx-20 sm:my-40">
 
-        <div className="gap-8 sm:grid-cols-3 sm:grid ">
-        <div className="mb-16 sm:mb-0">
-            <h1 className="mb-4 text-3xl text-center font-extralight">
-              Mine hold
-            </h1>
-            <Image alt="change" src={gridImgOne} placeholder="blur" />
-            <p className="mt-2 text-center sm:mx-10 font-extralight">
+        <div className="grid gap-20 sm:grid-cols-3 sm:grid ">
+        <div className="sm:mb-0">
+        <h3 className="text-4xl text-center font-extralight py-20 bg-gray-400/20 rounded-3xl ">Hold</h3>
+
+            <p className=" text-center font-extralight mt-4">
               Mine hold og priser
             </p>
             <div className="flex justify-center">
@@ -77,12 +75,10 @@ export default function Home() {
               </button></Link>
             </div>
           </div>
-          <div className="mb-16 sm:mb-0">
-            <h1 className="mb-4 text-3xl text-center font-extralight">
-              Krops Terapi
-            </h1>
-            <Image alt="change" src={gridImgTwo} placeholder="blur" />
-            <p className="mt-2 text-center sm:mx-10 font-extralight">
+          <div className="sm:mb-0">
+          <h3 className="text-4xl text-center font-extralight py-20 bg-sky-300/20 rounded-3xl ">Krops Terapi</h3>
+
+            <p className="mt-4 text-center sm:mx-10 font-extralight">
               En helhedsorienteret måde at arbejde med krop og psyke på
             </p>
             <div className="flex justify-center">
@@ -92,12 +88,10 @@ export default function Home() {
               </button></Link>
             </div>
           </div>
-          <div className="mb-16 sm:mb-0">
-            <h1 className="mb-4 text-3xl text-center font-extralight">
-              Kraniosakral Terapi
-            </h1>
-            <Image alt="change" src={gridImgOne} placeholder="blur" />
-            <p className="mt-2 text-center sm:mx-10 font-extralight">
+          <div className="sm:mb-0">
+          <h3 className="text-4xl text-center font-extralight py-20 bg-red-300/20 rounded-3xl ">Kranio-Sakral Terapi</h3>
+
+            <p className="mt-4 text-center sm:mx-10 font-extralight">
               Det blide tryg med den store virkning
             </p>
             <div className="flex justify-center">
@@ -108,12 +102,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="sm:mt-20 mb-16 sm:mb-0">
-            <h1 className="mb-4 text-3xl text-center font-extralight">
-              Stressbehandling
-            </h1>
-            <Image alt="change" src={gridImgThree} placeholder="blur" />
-            <p className="mt-2 text-center sm:mx-10 font-extralight">
+          <div className="">
+          <h3 className="text-4xl text-center font-extralight py-20 bg-orange-300/20 rounded-3xl">Stressbehandling</h3>
+
+            <p className="mt-4 text-center sm:mx-10 font-extralight">
               Lær at forstå din stress
             </p>
             <div className="flex justify-center">
@@ -123,16 +115,26 @@ export default function Home() {
               </button></Link>
             </div>
           </div>
-          <div className="sm:mt-20 mb-16 sm:mb-0">
-            <h1 className="mb-4 text-3xl text-center font-extralight">
-              Søvn
-            </h1>
-            <Image alt="change" src={gridImgThree} placeholder="blur" />
-            <p className="mt-2 text-center sm:mx-10 font-extralight">
+          <div className="">
+          <h3 className="text-4xl text-center font-extralight py-20 bg-emerald-400/20 rounded-3xl ">Søvn</h3>
+
+            <p className="mt-4 text-center sm:mx-10 font-extralight">
               Søvnbehandling 
             </p>
             <div className="flex justify-center">
             <Link href="/tilbyder/sleep"><button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
+               <a>Læs mere</a>
+              </button></Link>
+            </div>
+          </div>
+          <div className="">
+          <h3 className="text-4xl text-center font-extralight py-20 bg-yellow-300/20 rounded-3xl ">Begivenheder</h3>
+
+            <p className="mt-4 text-center sm:mx-10 font-extralight">
+              Workshops, retreats mm. 
+            </p>
+            <div className="flex justify-center">
+            <Link href="/tilbyder/begivenheder"><button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
                <a>Læs mere</a>
               </button></Link>
             </div>

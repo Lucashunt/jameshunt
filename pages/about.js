@@ -5,6 +5,12 @@ import headerImage from "../public/JamesSortUdenBaggrund.jpg";
 const about = () => {
   return (
     <div className="bg-background">
+            <Head>
+        <title>Om mig</title>
+        <meta name="description" content="om mig" />
+        <meta charSet="utf-8" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="px-10 sm:px-24">
         <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">Om mig</h1>
 
