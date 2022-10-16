@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import headerImage from "../public/JamesSortUdenBaggrund.jpg";
+import Head from "next/head";
 
 const about = () => {
   return (

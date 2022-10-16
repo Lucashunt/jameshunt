@@ -6,10 +6,8 @@ const firma = () => {
   return (
     <div className="bg-background">
       <div className="px-10 sm:px-24">
-        <div className="hidden sm:block">
-        <Image alt="change" src={mark} placeholder="blur" priority />
-        </div>
-        <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-5xl font-extralight">
+
+      <h1 className="text-4xl text-center font-extralight py-20 my-20  rounded-3xl  bg-blue-300/20">
           Opmærksomhed, udholdenhed og balance i livet
         </h1>
 
