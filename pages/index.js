@@ -14,6 +14,7 @@ export default function Home() {
         <title>Forside</title>
         <meta name="description" content="Forside" />
         <meta charSet="utf-8" />
+        <meta name="theme-color" content="#F8F6F1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
