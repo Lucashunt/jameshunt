@@ -12,6 +12,7 @@ import Script from 'next/script'
 function MyApp({ Component, pageProps }) {
 
   const ID = process.env.NEXT_PUBLIC_GA_ID
+  console.log(ID)
 
   return (
 <div className='bg-background scroll-smooth'>
@@ -25,7 +26,7 @@ function MyApp({ Component, pageProps }) {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', ${ID});
+          gtag('config', '${ID}');
         `}
       </Script>
     <Layout>
