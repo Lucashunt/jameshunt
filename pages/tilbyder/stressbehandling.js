@@ -1,10 +1,12 @@
-import Image from "next/image";
+
 import Link from "next/link";
-import bro from "../../public/bro.jpeg";
+import Header from "../../comps/Header";
+
 
 const stressbehandling = () => {
   return (
     <div className="bg-background">
+      <Header title="Stressbehandling" description="Stress treatment page"/>
       <div className="px-10 sm:px-24">
 
         <h1 className="sm:text-7xl text-center font-extralight py-20 my-20 rounded-3xl text-4xl bg-orange-300/20">

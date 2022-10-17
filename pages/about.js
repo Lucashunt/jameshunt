@@ -1,17 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import headerImage from "../public/JamesSortUdenBaggrund.jpg";
-import Head from "next/head";
+import Header from "../comps/Header";
 
 const about = () => {
   return (
     <div className="bg-background">
-            <Head>
-        <title>Om mig</title>
-        <meta name="description" content="om mig" />
-        <meta charSet="utf-8" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Header title="Om mig" description="About page"/>
       <div className="px-10 sm:px-24">
         <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">Om mig</h1>
 

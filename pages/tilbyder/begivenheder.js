@@ -1,5 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
+import Header from "../../comps/Header";
 
 function Dis({ p }) {
   return (
@@ -76,6 +77,7 @@ const Begivenheder = () => {
     
   return (
     <div className="bg-background">
+        <Header title="Begivenheder" description="Events page"/>
       <div className="px-10 sm:px-24">
       <h1 className="text-4xl text-center font-extralight py-20 my-20  rounded-3xl  bg-yellow-300/20">
           Begivenheder

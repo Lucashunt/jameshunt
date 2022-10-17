@@ -1,10 +1,12 @@
-import Image from "next/image";
+
 import Link from "next/link";
-import Kranio from "../../public/Kranio.jpeg";
+import Header from "../../comps/Header";
+
 
 const Hold = () => {
   return (
     <div className="bg-background">
+      <Header title="Hold" description="Teams page"/>
       <div className="px-10 sm:px-24">
 
         <h1 className="text-4xl sm:text-7xl text-center font-extralight py-20 mt-20 rounded-3xl bg-gray-400/20">

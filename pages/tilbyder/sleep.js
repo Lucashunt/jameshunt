@@ -1,10 +1,12 @@
-import Image from "next/image";
+
 import Link from "next/link";
-import skov from "../../public/skov.jpeg";
+import Header from "../../comps/Header";
+
 
 const sleep = () => {
   return (
     <div className="bg-background">
+      <Header title="Søvn" description="sleep page"/>
       <div className="px-10 sm:px-24">
         
         <h1 className="text-4xl sm:text-7xl text-center font-extralight py-20 my-20 bg-emerald-400/20 rounded-3xl ">Søvn</h1>

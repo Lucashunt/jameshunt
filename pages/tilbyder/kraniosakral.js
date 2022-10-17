@@ -1,10 +1,11 @@
-import Image from "next/image";
+
 import Link from "next/link";
-import Kranio from "../../public/Kranio.jpeg";
+import Header from "../../comps/Header";
 
 const kraniosakral = () => {
   return (
     <div className="bg-background">
+      <Header title="Kranio Sakral-terapi" description="Kranio Sakral-Terapi"/>
       <div className="px-10 sm:px-24">
 
         <h1 className="text-4xl sm:text-7xl text-center font-extralight py-20 my-20  rounded-3xl  bg-red-300/20">Kranio-Sakral Terapi</h1>

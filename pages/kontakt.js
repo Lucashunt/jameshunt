@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
+import Header from '../comps/Header';
 
 
 
@@ -21,6 +22,7 @@ const Kontakt = () => {
 
   return (
     <div className="bg-background">
+      <Header title="Kontakt" description="Contact Page"/>
       <div className="px-10 sm:px-24">
         <h1 className="py-16 text-4xl text-center sm:py-8 sm:text-6xl font-extralight">Kontakt</h1>
 
@@ -39,7 +41,7 @@ const Kontakt = () => {
                     px-0.5
                     border-0 border-b-2 border-gray-400
                     focus:ring-0 focus:border-black
-                  " placeholder="James Hunt..."/>
+                  " placeholder=""/>
               </label>
               <label className="block">
                 <span className="text-gray-700">Email</span>
@@ -51,7 +53,7 @@ const Kontakt = () => {
                     px-0.5
                     border-0 border-b-2 border-gray-400
                     focus:ring-0 focus:border-black
-                  " placeholder="john@example.com"/>
+                  " placeholder=""/>
               </label>
               <label className="block">
                 <span className="text-gray-700">Emne</span>
@@ -63,7 +65,7 @@ const Kontakt = () => {
                     px-0.5
                     border-0 border-b-2 border-gray-400
                     focus:ring-0 focus:border-black
-                  " placeholder="Tilmelding hold..."/>
+                  " placeholder=""/>
               </label>
               <label className="block">
                 <span className="text-gray-700">Additional details</span>
@@ -75,7 +77,7 @@ const Kontakt = () => {
                     px-0.5
                     border-0 border-b-2 border-gray-400
                     focus:ring-0 focus:border-black
-                  " rows="3" placeholder="..."></textarea>
+                  " rows="3" placeholder=""></textarea>
               </label>
               <button type="submit" className="flex px-5 py-3 my-6 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 justify-self-center">
           Send besked

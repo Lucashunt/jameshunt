@@ -1,22 +1,15 @@
-import Head from "next/head";
+
 import Image from "next/image";
 import Link from "next/link";
+import Header from "../comps/Header";
 import headerImage from "../public/JamesSortUdenBaggrund.jpg";
-import gridImgOne from "../public/meditation2.jpeg";
-import gridImgTwo from "../public/skovVand2.jpg";
-import gridImgThree from "../public/udendørsYoga2.jpg";
+
 
 export default function Home() {
   return (
     <div className=" bg-background">
       {/* Header sektion */}
-      <Head>
-        <title>Forside</title>
-        <meta name="description" content="Forside" />
-        <meta charSet="utf-8" />
-        <meta name="theme-color" content="#F8F6F1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Header title="Forside" description="Frontpage"/>
 
       <div className="px-10 py-6 sm:py-12 sm:px-24">
         <div className="">
@@ -102,6 +95,18 @@ export default function Home() {
               </button></Link>
             </div>
           </div>
+          <div className="">
+          <h3 className="text-4xl text-center font-extralight py-20 bg-yellow-300/20 rounded-3xl ">Begivenheder</h3>
+
+            <p className="mt-4 text-center sm:mx-10 font-extralight">
+              Workshops, retreats mm. 
+            </p>
+            <div className="flex justify-center">
+            <Link href="/tilbyder/begivenheder"><button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
+               <a>Læs mere</a>
+              </button></Link>
+            </div>
+          </div>
 
           <div className="">
           <h3 className="text-4xl text-center font-extralight py-20 bg-orange-300/20 rounded-3xl">Stressbehandling</h3>
@@ -128,18 +133,7 @@ export default function Home() {
               </button></Link>
             </div>
           </div>
-          <div className="">
-          <h3 className="text-4xl text-center font-extralight py-20 bg-yellow-300/20 rounded-3xl ">Begivenheder</h3>
 
-            <p className="mt-4 text-center sm:mx-10 font-extralight">
-              Workshops, retreats mm. 
-            </p>
-            <div className="flex justify-center">
-            <Link href="/tilbyder/begivenheder"><button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-               <a>Læs mere</a>
-              </button></Link>
-            </div>
-          </div>
         </div>
       </div>
 

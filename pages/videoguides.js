@@ -1,9 +1,11 @@
 import Link from "next/link.js";
+import Header from "../comps/Header.js";
 import YoutubeEmbed from "../comps/YoutubeEmbed.js"
 
 const videoGuides = () => {
     return ( 
         <div className="bg-background">
+          <Header title="Video" description="Video Guides"/>
             <div className="mx-8 sm:mx-48">
               <h1 className="py-16 text-4xl tracking-wide text-center sm:text-6xl font-extralight">Videoguides</h1>
               <div className="flex flex-col items-center justify-center my-10 sm:flex-row">
