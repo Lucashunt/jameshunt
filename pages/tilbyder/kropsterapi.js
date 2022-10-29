@@ -9,7 +9,7 @@ const kropsterapi = () => {
       <div className="px-10 sm:px-24">
 
         <h1 className="text-4xl sm:text-7xl text-center font-extralight py-20 my-20 rounded-3xl bg-sky-300/20">
-          Krops Terapi
+          Kropsterapi
         </h1>
 
         <div className="grid-cols-3 gap-4 sm:py-8 sm:grid">

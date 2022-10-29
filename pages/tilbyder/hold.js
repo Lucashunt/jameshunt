@@ -57,7 +57,7 @@ const Hold = () => {
             <div>
               <h3 className="text-center sm:text-left text-3xl">Torsdag</h3>
               <ul className="font-extralight mt-4 text-center sm:text-left">
-                <li>Tid: kl 10.00-10:30</li>
+                <li>Tid: kl 10.00-11:30</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
                 <li>Form: Yin og blide bevægelser</li>
               </ul>
