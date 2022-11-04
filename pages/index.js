@@ -70,7 +70,7 @@ export default function Home() {
             </div>
           </div>
           <div className="sm:mb-0">
-          <h3 className="text-4xl text-center font-extralight py-20 bg-sky-300/20 rounded-3xl ">Krops Terapi</h3>
+          <h3 className="text-4xl text-center font-extralight py-20 bg-sky-300/20 rounded-3xl ">Kropsterapi</h3>
 
             <p className="mt-4 text-center sm:mx-10 font-extralight">
               En helhedsorienteret måde at arbejde med krop og psyke på
