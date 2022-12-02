@@ -2,14 +2,14 @@
 import Link from "next/link";
 import Header from "../../comps/Header";
 
-const kropsterapi = () => {
+const message = () => {
   return (
     <div className="bg-background">
       <Header title="Krops Terapi" description="Krops Terapi"/>
       <div className="px-10 sm:px-24">
 
-        <h1 className="text-4xl sm:text-7xl text-center font-extralight py-20 my-20 rounded-3xl bg-sky-300/20">
-          Kropsterapi
+        <h1 className="text-4xl sm:text-7xl text-center font-extralight py-20 my-20 rounded-3xl bg-orange-700/20">
+          Massage
         </h1>
 
         <div className="grid-cols-3 gap-4 sm:py-8 sm:grid">
@@ -17,35 +17,13 @@ const kropsterapi = () => {
             <div className="mb-14">
               <h1 className="mb-4 text-3xl text-center sm:text-left">Hvordan foregår en behandling?</h1>
               <p className=" font-extralight">
-                Følelser lagres i kroppen som spændinger og kan gennem hele
-                livet reaktiveres som små hukommelses-myoser. Forbindelsen
-                mellem krop og psyke bliver meget tydelig og håndgribelig, når
-                man modtager kropsterapi. Igennem et liv bliver kroppen påvirket
-                af det, vi tænker og føler, og samtidig påvirkes det, vi tænker
-                og føler af vores kropsfornemmelse, så der foregår således en
-                vekselvirkning mellem krop og sind. <br /><br /> I kropsbehandlingen arbejder
-                vi med det bevidste åndedræt og med opspænding og afspænding af
-                de områder af kroppen, som bærer på gamle traumer. Ved at
-                manipulere disse områder og ved at spænde op i en rum tid for
-                derefter at spænde af kan man forløse traumer. I terapien kan
-                man reagere meget forskelligt både følelsesmæssigt og kropsligt.
-                Nogle vil græde, andre vil ikke, der kan komme gamle minder og
-                billeder frem og erkendelser, og fysiske følelser som varme og
-                kulde er også normale reaktioner. Når vi gennem livet spænder
-                op, gør vi det for at beskytte os selv, fordi der tidligt i
-                vores liv har været grund til det. Det har med andre ord været
-                en måde at håndtere livet på, men det er blevet til en
-                uhensigtsmæssig vane, som blokerer for, at der kan strømme
-                energi igennem vores krop. <br /><br />Når vi ikke har den fulde
-                energi-gennemstrømning og er låste i vores kroppe, er det
-                vanskeligt at være fuldt til stede i livet og føle vitalitet og
-                glæde, og det er dermed også sværere at træffe de rigtige
-                beslutninger. Over tid vil du opnå et bedre kendskab til din
-                krops særlige måder at spænde op, og jeg vil kunne hjælpe dig
-                med øvelser, som er tilegnet dig, sådan at du også selv kan
-                praktisere derhjemme.<br /><br /> Der vil være tale om et forløb af kortere
-                eller længere varighed alt afhængig af, hvad du kommer med af
-                problematikker.
+              Der er flere måder, hvorpå vi kan slippe af med de fysiske udfordringer, vi bærer rundt på.
+<br /> <br />
+Metoden, jeg bruger, afhænger af dit problem. Får du gentagne spændinger af fysisk eller psykisk belastende situationer? Hvor sidder spændingerne? Har du fået konstateret gigt/betændelse? Hvordan oplever jeg dit bindevæv? Er du muskulær stærk eller svag? Osv. Det er områder, jeg undersøger og spørger ind til. 
+<br /> <br />
+Jeg anvender triggerpunkt massage, fysiurgisk massage, dorn terapi og kst. Meget ofte er der flere teknikker involveret i én behandling.
+<br /> <br />
+Ofte får du øvelser med hjem, som er med til at speede op for — og fastholde — en god udvikling.
               </p>
             </div>
 
@@ -56,7 +34,7 @@ const kropsterapi = () => {
               <h1 className="text-3xl text-center">Generelt</h1>
               <p className="mt-10 font-extralight">
                 <b>STED:</b> <br />
-                Jeg har behandling i Helsinge & Gilleleje.
+                Jeg har behandling i Helsinge og Gilleleje.
                 <br /> <br />
                 Helsinge – Nørretofte 20, 3200 Helsinge
                 <br />
@@ -65,10 +43,7 @@ const kropsterapi = () => {
                 <br />
                 <b>PRIS:</b>
                 <br />
-                60 – 70 min: kr. 600,-
-                <br />
-                Første gang ca 90 min: kr 800,-
-            
+                60 min: kr. 600,-
                 <br />
                 <br />
                 <b>KONTAKT:</b>
@@ -200,4 +175,4 @@ Samtidig har jeg fået forskellige øvelser som jeg arbejder med hjemme der give
   );
 };
 
-export default kropsterapi;
+export default message;

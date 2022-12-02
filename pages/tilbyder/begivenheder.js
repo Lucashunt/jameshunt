@@ -83,23 +83,24 @@ const Begivenheder = () => {
           Begivenheder
         </h1>
         <div className="grid sm:grid-cols-3 gap-20">
-          <Generelt
-            pris="295"
-            dato="Lørdag d. 5 November"
-            tid="Kl. 10 - 12:30"
-            adresse="Nørretoftevej 20, 3200 Helsinge"
-            tilmelding="Du er tilmeldt når du har bekræftet din deltagelse på Facebook, sms eller mail, og indbetalt til mobilepay nr.: 42 53 11 04. Mærk betaling med dato for workshoppen"
-            overskrift="Skuldre, nakke, yin og blide bevægelser"
-            p={<p>På denne workshop arbejder vi med skuldre og nakke. Stress har tendens til at sætte sig i de områder med spændinger, til tider hovedpine, en følelse af træthed og svimmelhed som resultat af spændingerne. Gennem ásanas (stillinger) og åndedræt vil vi få løsnet op i muskler og sener og få skabt øget velvære. <br /><br /> Du vil få værktøjer til selv at arbejde med disse områder derhjemme.<br /><br />Workshoppen afsluttes med &quot;Yin og blide bevægelser&quot; er en yogaform, hvis sigte er at skabe balance gennem lige dele aktiv og passiv, blid og nærværende træning.<br /><br />Yin yoga er en blid og meditativ træning, der lader kroppen komme ind i en dyb oplevelse af afslapning og ro. Med ro i krop og sind skaber du restitution, større bevægelsesfrihed, og du bliver opmærksom. Du bliver guidet ind i stillingerne med fokus på åndedrættet, og stillingerne holdes afslappet i 3-5 min, hvor du opnår dybe og rolige stræk, der både smidiggør muskler, led og bindevæv.<br /><br />De blide bevægelser aktiverer musklerne, styrker din krop og hjælper til at skabe en balance mellem det passive og aktive.</p>}
-          />
+
 
           <Generelt
             pris="295"
-            dato="Torsdag d. 28 December"
+            dato="Torsdag d. 29 December"
             tid="Kl. 10 - 12:30"
             adresse="Nørretoftevej 20, 3200 Helsinge"
             tilmelding="Du er tilmeldt når du har bekræftet din deltagelse på Facebook, sms eller mail, og indbetalt til mobilepay nr.: 42 53 11 04. Mærk betaling med dato for workshoppen"
-            overskrift="En langsom dag"
+            overskrift="En stille dag Helsinge"
+            p={<p>2,5 timers Yin og Dynamic yoga. Der vil være fokus på at trække tempoet ud, invitere langsomheden ind og være i stilhed. Øvelserne vil fordrer at kroppen detoxer - både fysisk og mentalt. <br /><br />Denne workshop indeholder en mere meditativ yogaform, med fordybelsen i yogaens dybere stillinger og åndedrætstræning.<br /><br />Dynamic yoga er en yogaform, der har fokus på mindfulness og fordybelse gennem blide flow.<br /><br />Yin yoga er en blid og meditativ træning, der lader kroppen komme ind i en dyb oplevelse af afslapning og ro. Med ro i krop og sind skaber du restitution, større bevægelsesfrihed og du bliver opmærksom. Du bliver guidet ind i stillingerne med fokus på åndedrættet, stillingerne i Yin holdes afslappet i 3-5 min, hvor du opnår dybe og rolige stræk, der både smidiggør muskler, led og bindevæv.<br /><br />Du får mulighed for at vende blikket indad for en stund og være i stilhed, både fysisk og mentalt.</p>}
+          />
+                    <Generelt
+            pris="295"
+            dato="Torsdag d. 30 December"
+            tid="Kl. 10 - 12:30"
+            adresse="Hovedgade 19, 3250 Gilleje"
+            tilmelding="Du er tilmeldt når du har bekræftet din deltagelse på Facebook, sms eller mail, og indbetalt til mobilepay nr.: 42 53 11 04. Mærk betaling med dato for workshoppen"
+            overskrift="En stille dag Gilleleje"
             p={<p>2,5 timers Yin og Dynamic yoga. Der vil være fokus på at trække tempoet ud, invitere langsomheden ind og være i stilhed. Øvelserne vil fordrer at kroppen detoxer - både fysisk og mentalt. <br /><br />Denne workshop indeholder en mere meditativ yogaform, med fordybelsen i yogaens dybere stillinger og åndedrætstræning.<br /><br />Dynamic yoga er en yogaform, der har fokus på mindfulness og fordybelse gennem blide flow.<br /><br />Yin yoga er en blid og meditativ træning, der lader kroppen komme ind i en dyb oplevelse af afslapning og ro. Med ro i krop og sind skaber du restitution, større bevægelsesfrihed og du bliver opmærksom. Du bliver guidet ind i stillingerne med fokus på åndedrættet, stillingerne i Yin holdes afslappet i 3-5 min, hvor du opnår dybe og rolige stræk, der både smidiggør muskler, led og bindevæv.<br /><br />Du får mulighed for at vende blikket indad for en stund og være i stilhed, både fysisk og mentalt.</p>}
           />
 
@@ -136,6 +137,15 @@ Vi giver gennem øvelser, os en pause fra ydre distraktioner, og plads til indre
  &quot;Det kræver en kold tyrker, at komme hjem&quot; 
  
                 </p>}
+          />
+                    <Generelt
+            pris="295"
+            dato="Afventer"
+            tid="Kl. 10 - 12:30"
+            adresse="Nørretoftevej 20, 3200 Helsinge"
+            tilmelding="Du er tilmeldt når du har bekræftet din deltagelse på Facebook, sms eller mail, og indbetalt til mobilepay nr.: 42 53 11 04. Mærk betaling med dato for workshoppen"
+            overskrift="Skuldre, nakke, yin og blide bevægelser"
+            p={<p>På denne workshop arbejder vi med skuldre og nakke. Stress har tendens til at sætte sig i de områder med spændinger, til tider hovedpine, en følelse af træthed og svimmelhed som resultat af spændingerne. Gennem ásanas (stillinger) og åndedræt vil vi få løsnet op i muskler og sener og få skabt øget velvære. <br /><br /> Du vil få værktøjer til selv at arbejde med disse områder derhjemme.<br /><br />Workshoppen afsluttes med &quot;Yin og blide bevægelser&quot; er en yogaform, hvis sigte er at skabe balance gennem lige dele aktiv og passiv, blid og nærværende træning.<br /><br />Yin yoga er en blid og meditativ træning, der lader kroppen komme ind i en dyb oplevelse af afslapning og ro. Med ro i krop og sind skaber du restitution, større bevægelsesfrihed, og du bliver opmærksom. Du bliver guidet ind i stillingerne med fokus på åndedrættet, og stillingerne holdes afslappet i 3-5 min, hvor du opnår dybe og rolige stræk, der både smidiggør muskler, led og bindevæv.<br /><br />De blide bevægelser aktiverer musklerne, styrker din krop og hjælper til at skabe en balance mellem det passive og aktive.</p>}
           />
 
 <Generelt

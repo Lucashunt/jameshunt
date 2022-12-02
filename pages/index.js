@@ -57,8 +57,11 @@ export default function Home() {
 
         <div className="grid gap-20 sm:grid-cols-3 sm:grid ">
         <div className="sm:mb-0">
-        <h3 className="text-4xl text-center font-extralight py-20 bg-gray-400/20 rounded-3xl ">Hold</h3>
-
+        <Link href="/tilbyder/hold">
+            <a>
+        <h3 className="text-4xl text-center font-extralight py-20 bg-gray-400/20 rounded-3xl hover:bg-gray-400/10 transition ease-in-out duration-500 hover:translate-x-3">Hold</h3>
+        </a>
+        </Link>
             <p className=" text-center font-extralight mt-4">
               Mine hold og priser
             </p>
@@ -70,8 +73,11 @@ export default function Home() {
             </div>
           </div>
           <div className="sm:mb-0">
-          <h3 className="text-4xl text-center font-extralight py-20 bg-sky-300/20 rounded-3xl ">Kropsterapi</h3>
-
+          <Link href="/tilbyder/kropsterapi">
+            <a>
+          <h3 className="text-4xl text-center font-extralight py-20 bg-sky-300/20 rounded-3xl hover:bg-sky-300/10 transition ease-in-out duration-500 hover:translate-x-3 ">Kropsterapi</h3>
+          </a>
+          </Link>
             <p className="mt-4 text-center sm:mx-10 font-extralight">
               En helhedsorienteret måde at arbejde med krop og psyke på
             </p>
@@ -83,8 +89,27 @@ export default function Home() {
             </div>
           </div>
           <div className="sm:mb-0">
-          <h3 className="text-4xl text-center font-extralight py-20 bg-red-300/20 rounded-3xl ">Kranio-Sakral Terapi</h3>
-
+          <Link href="/tilbyder/massage">
+            <a>
+          <h3 className="text-4xl text-center font-extralight py-20 bg-orange-700/20 rounded-3xl hover:bg-orange-700/10 transition ease-in-out duration-500 hover:translate-x-3">Massage</h3>
+          </a>
+          </Link> 
+            <p className="mt-4 text-center sm:mx-10 font-extralight">
+              Fysisk smertebehandling
+            </p>
+            <div className="flex justify-center">
+            <Link href="/tilbyder/massage">
+              <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
+                <a>Læs mere</a>
+              </button></Link>
+            </div>
+          </div>
+          <div className="sm:mb-0">
+          <Link href="/tilbyder/kraniosakral">
+            <a>
+          <h3 className="text-4xl text-center font-extralight py-20 bg-red-300/20 rounded-3xl hover:bg-red-300/10 transition ease-in-out duration-500 hover:translate-x-3">Kranio-Sakral Terapi</h3>
+          </a>
+          </Link>
             <p className="mt-4 text-center sm:mx-10 font-extralight">
               Det blide tryg med den store virkning
             </p>
@@ -96,8 +121,11 @@ export default function Home() {
             </div>
           </div>
           <div className="">
-          <h3 className="text-4xl text-center font-extralight py-20 bg-yellow-300/20 rounded-3xl ">Begivenheder</h3>
-
+          <Link href="/tilbyder/begivenheder">
+            <a>
+          <h3 className="text-4xl text-center font-extralight py-20 bg-yellow-300/20 rounded-3xl hover:bg-yellow-300/10 transition ease-in-out duration-500 hover:translate-x-3">Begivenheder</h3>
+          </a>
+          </Link>
             <p className="mt-4 text-center sm:mx-10 font-extralight">
               Workshops, retreats mm. 
             </p>
@@ -108,22 +136,13 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="">
-          <h3 className="text-4xl text-center font-extralight py-20 bg-orange-300/20 rounded-3xl">Stressbehandling</h3>
 
-            <p className="mt-4 text-center sm:mx-10 font-extralight">
-              Lær at forstå din stress
-            </p>
-            <div className="flex justify-center">
-            <Link href="/tilbyder/stressbehandling">
-              <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                <a>Læs mere</a>
-              </button></Link>
-            </div>
-          </div>
           <div className="">
-          <h3 className="text-4xl text-center font-extralight py-20 bg-emerald-400/20 rounded-3xl ">Søvn</h3>
-
+          <Link href="/tilbyder/sleep">
+            <a>
+          <h3 className="text-4xl text-center font-extralight py-20 bg-emerald-400/20 rounded-3xl hover:bg-emerald-400/10 transition ease-in-out duration-500 hover:translate-x-3">Søvn</h3>
+          </a>
+          </Link>
             <p className="mt-4 text-center sm:mx-10 font-extralight">
               Søvnbehandling 
             </p>

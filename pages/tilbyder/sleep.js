@@ -76,7 +76,7 @@ const sleep = () => {
                 <b>STED:</b> <br />
                 Helsinge – Nørretofte 20, 3200 Helsinge
                 <br />
-                Smidsstrup – Digeshøj 7A, 3250 Gilleje (privat)
+                Gilleleje - Hovedgade 19, 3250 Gilleje
                 <br />
                 <br />
                 <b>PRIS:</b>
