@@ -88,7 +88,7 @@ const Begivenheder = () => {
           <Generelt
             pris="295"
             dato="Torsdag d. 29 December"
-            tid="Kl. 10 - 12:30"
+            tid="Kl. 15 - 17:30"
             adresse="Nørretoftevej 20, 3200 Helsinge"
             tilmelding="Du er tilmeldt når du har bekræftet din deltagelse på Facebook, sms eller mail, og indbetalt til mobilepay nr.: 42 53 11 04. Mærk betaling med dato for workshoppen"
             overskrift="En stille dag Helsinge"
