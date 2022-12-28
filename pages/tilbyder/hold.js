@@ -49,7 +49,7 @@ const Hold = () => {
               <ul className="font-extralight mt-4 text-center sm:text-left">
                 <li>Tid: kl 19:00-20:30</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
-                <li>Form: Yin og blide bevægelser</li>
+                <li>Form: Fra Hatha til Yin</li>
               </ul>
             </div>
           </div>

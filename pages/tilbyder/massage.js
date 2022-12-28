@@ -78,20 +78,7 @@ Ofte får du øvelser med hjem, som er med til at speede op for — og fastholde
         
         <div className="grid-cols-3 gap-8 pb-8 text-white sm:grid place-items-start">
 
-        <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
-            <div className="m-2">
-              <div className="text-4xl italic text-left">&quot;</div>
-              <div className="mx-4 sm:mx-8">
-                <p className="text-center font-extralight">
-                James er en fuldstændig fantastisk kropsbehandler! Jeg startede med at gå hos James, da jeg stod med begge ben dybt begravet i en livskrise, og James hjalp mig! Han lod mig på fineste vis holde hans hånd og læne mig ind i ham, mens jeg stille og roligt genfandt min egen balance.
-James har en fantastisk empatisk evne! Han er utrolig professionel og i samme ombæring virkelig personlig i hans kontakt. Det hjalp mig til hurtigt at føle tryghed i hans terapeutiske rum. Vi arbejdede både med konkrete fysiske spændinger og fastlåstheder, men også med de følelser der kan være knyttet til dem. Jeg er James evigt taknemmelig for hans støtte og vil anbefale ham til alle der har brug for hjælp til at gøre snuble-sten til stå-sten!
-                  <br /> <br />
-                </p>
-                <p className="italic font-thin text-center">- Laura</p>
-              </div>
-              <div className="h-5 text-4xl italic text-right">&quot;</div>
-            </div>
-          </div>
+ 
 
         <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
             <div className="m-2">
@@ -118,6 +105,21 @@ Min yogalærer gennem 7 år James Hunt anbefalede mig nogle behandlinger hos ham
                   <br /> <br />
                 </p>
                 <p className="italic font-thin text-center">- Signe Narp</p>
+              </div>
+              <div className="h-5 text-4xl italic text-right">&quot;</div>
+            </div>
+          </div>
+
+          <div className="mb-8 transition duration-300 rounded-md shadow-2xl shadow-black bg-default hover:bg-default/80">
+            <div className="m-2">
+              <div className="text-4xl italic text-left">&quot;</div>
+              <div className="mx-4 sm:mx-8">
+                <p className="text-center font-extralight">
+                James er en fuldstændig fantastisk kropsbehandler! Jeg startede med at gå hos James, da jeg stod med begge ben dybt begravet i en livskrise, og James hjalp mig! Han lod mig på fineste vis holde hans hånd og læne mig ind i ham, mens jeg stille og roligt genfandt min egen balance.
+James har en fantastisk empatisk evne! Han er utrolig professionel og i samme ombæring virkelig personlig i hans kontakt. Det hjalp mig til hurtigt at føle tryghed i hans terapeutiske rum. Vi arbejdede både med konkrete fysiske spændinger og fastlåstheder, men også med de følelser der kan være knyttet til dem. Jeg er James evigt taknemmelig for hans støtte og vil anbefale ham til alle der har brug for hjælp til at gøre snuble-sten til stå-sten!
+                  <br /> <br />
+                </p>
+                <p className="italic font-thin text-center">- Laura</p>
               </div>
               <div className="h-5 text-4xl italic text-right">&quot;</div>
             </div>
