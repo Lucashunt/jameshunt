@@ -16,7 +16,7 @@ const about = () => {
               <h1 className="hidden mb-4 text-3xl sm:visible">Om</h1>
               <p className=" font-extralight">
                 Jeg er uddannet bygningsingeniør, men har de seneste 10 år
-                uddannet mig til mindfulness, yoga instruktør, og behandler,
+                uddannet mig til mindfulness, yoga instruktør, og behandler. Jeg har været i mesterlære som traumeterapeut,
                 samt taget mange kurser alle rettet mod, at oparbejde evnen til
                 at skabe et godt liv, og være nærværende og åben overfor hvad
                 livet byder på sin vej. Kort sagt være nysgerrig i “kunsten at
