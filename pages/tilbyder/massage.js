@@ -53,12 +53,11 @@ Ofte får du øvelser med hjem, som er med til at speede op for — og fastholde
                 <br />
                 <b>AFBUD:</b>
                 <br />
-                Afbud skal ske senest dagen før aftalte tid
+                Afbud skal ske senest 16 timer før aftalte tid.
                 <br />
                 <br />
                 Jeg er medlem af og forsikret gennem foreningen “kranio-sakral
-                og kropsterapeuter” Jeg tager løbende kurser i Kranio Sakral
-                terapi og anatomi af RAB-certificerede lærer.
+                og kropsterapeuter”
                 <br />
                 <br />
                 Du kan læse mere om mig{" "}

@@ -77,17 +77,18 @@ const kraniosakral = () => {
                 En behandling varer ca. 60 minutter og koster 600 kr 
                 <br />
                 <br />
-                Bestilling og ændring af tid skal ske på tlf: 42531104 senest
-                dagen før.
-                <br />
-                <br />
+
                 Betaling kan ske kontant eller ved mobilepay på telefonnr.: 42
                 53 11 04
                 <br />
                 <br />
+                <b>AFBUD:</b>
+                <br />
+                Afbud skal ske senest 16 timer før aftalte tid.
+                <br />
+                <br />
                 Jeg er medlem af og forsikret gennem foreningen “kranio-sakral
-                og kropsterapeuter” Jeg tager løbende kurser i Kranio Sakral
-                terapi og anatomi af RAB-certificerede lærer.
+                og kropsterapeuter”
                 <br />
                 <br />
                 Du kan læse mere om mig{" "}
