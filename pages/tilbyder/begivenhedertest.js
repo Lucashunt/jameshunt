@@ -85,7 +85,7 @@ export async function getServerSideProps({ }) {
         'Content-Type': "application/json",
         'Authorization': `Bearer ${process.env.API_KEY}`
       }
-    });
+    })
     
 
 
