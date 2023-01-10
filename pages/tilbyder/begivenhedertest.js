@@ -81,7 +81,7 @@ export async function getServerSideProps({ }) {
       baseURL: 'https://cdn.contentful.com',
       headers: {
         'Content-Type': "application/json",
-        'Authorization': process.env.API_KEY
+        'Authorization': process.env.NEXT_PUBLIC_API_KEY
       }
     });
     
