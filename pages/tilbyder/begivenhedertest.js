@@ -77,14 +77,18 @@ function Generelt({ pris, dato, tid, adresse, tilmelding, overskrift, p }) {
 
 export async function getServerSideProps({ }) {
 
+const auth = process.env.NEXT_PUBLIC_API_KEY
+
     const client = axios.create({
       baseURL: 'https://cdn.contentful.com',
       headers: {
         'Content-Type': "application/json",
-        'Authorization': process.env.NEXT_PUBLIC_API_KEY
+        'Authorization': auth
       }
     });
     
+console.log(auth, "auth")
+
     const response = await client.get('/spaces/v9sb7460yx5u/entries')
       const events = response.data.items
     
@@ -92,13 +96,15 @@ export async function getServerSideProps({ }) {
 
     return {
         props: {
-            events
+            events,
+            auth
         }, 
       };
 }
 
 const Begivenhedertest = (events) => {
     console.log("data", events )
+    console.log("auth", auth )
   return (
     <div className="bg-background">
         <Header title="Begivenheder" description="Events page"/>
