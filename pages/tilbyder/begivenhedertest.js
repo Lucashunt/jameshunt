@@ -105,6 +105,7 @@ export async function getServerSideProps({ }) {
 const Begivenhedertest = (events) => {
     console.log("data", events )
   
+
   return (
     <div className="bg-background">
         <Header title="Begivenheder" description="Events page"/>
@@ -118,7 +119,7 @@ const Begivenhedertest = (events) => {
 
         {events.events.map((event) => ( 
             <>
-        
+          
           <Generelt
             pris={event.fields.pris}
             dato={ new Date(event.fields.dato).toLocaleDateString([], { weekday: "long", month: 'long', day: 'numeric' })}
@@ -126,7 +127,7 @@ const Begivenhedertest = (events) => {
             adresse={event.fields.adresse}
             tilmelding={event.fields.tilmelding}
             overskrift={event.fields.overskrift}
-            p={<p>{event.fields.p}</p>}
+            p={<p>{event.fields.p.content[0].content[0].value}</p>}
           />
           </>
         ))}
