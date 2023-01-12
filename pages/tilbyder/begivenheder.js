@@ -132,6 +132,21 @@ const Begivenhedertest = (events) => {
           </>
         ))}
 
+<Generelt
+            pris="Se pdf under læs mere"
+            dato="D. 15 - 17 September"
+            tid="Start Kl. 15"
+            adresse="Rytsebækvej 17, 4780 Stege"
+            tilmelding="Du er tilmeldt når du har bekræftet din deltagelse på Facebook, sms eller mail, og indbetalt til mobilepay nr.: 42 53 11 04. Mærk betaling med dato for workshoppen"
+            overskrift="Weekend retreat"
+            p={    <a
+              href="/files/retreat.pdf"
+              alt="alt text"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Hent pdf</a>}
+          />
+
         </div>       
       </div>
     </div>
