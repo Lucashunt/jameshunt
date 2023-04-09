@@ -88,6 +88,7 @@ export default function Home(blogs) {
               <span className="mt-4 text-2xl italic font-thin sm:text-2xl">
                 - Albert Einstein
               </span>
+              <NewsletterSignup />
             </div>
             <div className="order-first sm:order-last">
               <Image
@@ -103,7 +104,7 @@ export default function Home(blogs) {
 
       {/* Blogs sektion */}
 
-      <div className="px-10 bg-white py-20">
+      {/* <div className="px-10 bg-white py-20">
         <h1 className="text-center text-4xl sm:text-5xl font-extralight pb-10">
           Blogs
         </h1>
@@ -143,7 +144,7 @@ export default function Home(blogs) {
             </a>
           </Link>
         </div>
-      </div>
+      </div> */}
 
       {/* 3 grid med de forskellige */}
 
@@ -305,7 +306,7 @@ export default function Home(blogs) {
 
       {/* Mailchimp */}
 
-      <NewsletterSignup />
+      
     </div>
   );
 }
