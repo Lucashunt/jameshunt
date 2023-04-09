@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { subscribe } from '../utils/mailchimp.js';
+
 
 export default function NewsletterSignup() {
+
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState(null);
 
@@ -9,11 +10,23 @@ export default function NewsletterSignup() {
     e.preventDefault();
 
     try {
-      await subscribe(email);
-      
-      setStatus('success');
+       const res = await fetch('/api/signup', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              email: email,
+            }),
+      });
+     if (res.status === 200) {
+        setStatus('success');
+     } else {
+        setStatus('error');
+     }
+     
     } catch (error) {
-      setStatus('error');
+        setStatus('error');
     }
   }
 
@@ -28,8 +41,8 @@ export default function NewsletterSignup() {
       />
       <button type="submit">Subscribe</button>
 
-      {status === 'success' && <p>Thank you for subscribing!</p>}
-      {status === 'error' && <p>Something went wrong. Please try again.</p>}
+      {status === 'success' && <p>Tak for at tilmelde dig!</p>}
+      {status === 'error' && <p>Noget gik galt.</p>}
     </form>
   );
 }
