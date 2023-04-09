@@ -87,7 +87,7 @@ function Blog({ overskrift, resume, image, dato, blogID }) {
 
    
     return (
-      <div className="bg-background px-10 sm:px-24 pb-20">
+      <div className="bg-background px-10 sm:px-24 pb-20 ">
 
         <h1 className="text-center text-4xl sm:text-5xl font-extralight pb-10 py-16 sm:py-8">
           Blogs
