@@ -27,7 +27,7 @@ function Blog({ overskrift, image, dato, blogID }) {
           />
         </div>
         
-        <Link href={blogID}><button className="text-3xl my-2 hover:text-black/60 ease-in-out duration-300 md:text-left text-center">{overskrift}</button></Link>
+        <Link href={blogID}><button className="text-3xl hover:text-black/60 ease-in-out duration-300 md:text-left text-center">{overskrift}</button></Link>
         <p className="italic text-sm md:text-left text-center">{f.format(d)}</p>
        
       </div>

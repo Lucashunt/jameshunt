@@ -26,9 +26,9 @@ function Blog({ overskrift, image, dato, blogID }) {
             blurDataURL="true"
           />
         </div>
-        
-        <Link href={blogID}><button className="text-3xl my-2 hover:text-black/60 ease-in-out duration-300 md:text-left text-center">{overskrift}</button></Link>
-        <p className="italic text-sm md:text-left text-center">{f.format(d)}</p>
+        <p className="italic text-sm mt-5">{f.format(d)}</p>
+        <Link href={blogID}><a><button className="text-3xl mb-2 hover:text-black/60 ease-in-out duration-300">{overskrift}</button></a></Link>
+        <p>{resume}...</p>
        
       </div>
     </>
