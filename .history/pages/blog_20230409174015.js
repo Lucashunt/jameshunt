@@ -83,7 +83,7 @@ function Blog({ overskrift, resume, image, dato, blogID }) {
   
   const Begivenhedertest = (blogs) => {
   
-  
+    console.log(blogs.blogs.items[0].fields.billede.sys.id)
 
    
     return (
