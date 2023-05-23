@@ -276,7 +276,7 @@ export default function Home(blogs) {
             <a>Find mig på facebook</a>
           </Link>
         </h1>
-        <Link href="https://www.facebook.com/jameshunt.dk">
+        <Link href="https://www.facebook.com/yoganord.dk">
           <svg
             className="fill-blue-500 hover:fill-blue-500/50"
             xmlns="http://www.w3.org/2000/svg"

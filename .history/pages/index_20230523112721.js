@@ -272,11 +272,11 @@ export default function Home(blogs) {
 
       <div className="flex items-center justify-around sm:justify-center bg-white h-80">
         <h1 className="text-4xl text-center sm:text-5xl sm:mr-6 font-extralight hover:text-black/50">
-          <Link href="https://www.facebook.com/jameshunt.dk">
+          <Link href="https://www.facebook.com/jameshunt">
             <a>Find mig på facebook</a>
           </Link>
         </h1>
-        <Link href="https://www.facebook.com/jameshunt.dk">
+        <Link href="https://www.facebook.com/yoganord.dk">
           <svg
             className="fill-blue-500 hover:fill-blue-500/50"
             xmlns="http://www.w3.org/2000/svg"

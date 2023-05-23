@@ -38,7 +38,7 @@ const Footer = () => {
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2"><Link href="/kontakt"><a>Kontaktformular</a></Link></p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2"><a>James@yoga-nord.dk</a></p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2"><a>+45 42 53 11 04</a></p>
-            <p className="inline-block px-2 mt-3 font-extrabold transition duration-300 ease-in-out bg-blue-600 rounded-full hover:translate-x-2"><Link href="https://www.facebook.com/jameshunt.dk">F</Link></p>
+            <p className="inline-block px-2 mt-3 font-extrabold transition duration-300 ease-in-out bg-blue-600 rounded-full hover:translate-x-2"><Link href="https://www.facebook.com/yoganord.dk">F</Link></p>
           </div>
           </div>
 
