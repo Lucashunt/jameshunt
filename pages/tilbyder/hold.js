@@ -120,7 +120,7 @@ const Hold = () => {
           <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black my-10 sm:w-1/2">
             <div className="p-6 sm:p-10">
               <h1 className="text-3xl text-center mb-10" id="priser">Priser</h1>
-              <h3>Sæsontilmelding 2022</h3>
+              <h3>Sæsontilmelding 2023</h3>
               <p className="font-extralight mt-2">
                 Ved sæson tilmelding koster det 110 kr pr gang ved samlet
                 betaling.
