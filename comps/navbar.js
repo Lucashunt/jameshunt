@@ -26,8 +26,9 @@ const Navbars = () => {
 
     
     <div className="bg-background sticky z-10 ">
+      <p className="text-xs text-center bg-default text-white py-2">YogaNord er blevet til JamesHunt</p>
       
-    <div className="pt-6 text-4xl font-bold tracking-wide text-center text-default"><Link href="/"><a> James Hunt</a></Link></div>
+    <div className=" text-4xl font-bold tracking-wide text-center text-default pt-2"><Link href="/"><a> James Hunt</a></Link></div>
     <div className="flex items-center justify-center py-4 text-sm font-light sm:text-base text">
       
         <ul className="flex">
