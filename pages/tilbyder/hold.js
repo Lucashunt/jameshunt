@@ -27,8 +27,8 @@ const Hold = () => {
         </button></Link>
         </div>
 
-        <div className="grid sm:grid-cols-3 gap-10">
-          <div className="col-span-1 flex flex-col items-center sm:items-start">
+        <div className="grid sm:grid-cols-2 gap-10">
+          {/* <div className="col-span-1 flex flex-col items-center sm:items-start">
             <div>
               <h3 className="text-center sm:text-left text-3xl ">Mandag</h3>
               <ul className="font-extralight mt-4 text-center sm:text-left">
@@ -37,7 +37,7 @@ const Hold = () => {
                 <li>Form: Yin og blide bevægelser</li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <div className="col-span-1 flex flex-col items-center">
             <div>
               <h3 className="text-center sm:text-left text-3xl " id="hold">Tirsdag</h3>
@@ -132,10 +132,6 @@ const Hold = () => {
                 finder vi ud af en løsning <br />
                 Når du er tilmeldt èt hold, kan du altid skifte hold hvis du en
                 uge ikke kan gå på dit faste. (forudsat der er plads)
-              </p>
-              <h3 className="mt-10"> Klippekort</h3>
-              <p className="font-extralight mt-2">
-                Klippekort med 10 gange yoga koster 1400 kr
               </p>
               <h3 className="mt-10">Betaling ved fremmøde</h3>
               <p className="font-extralight mt-2">Drop in koster det 150 kr</p>
