@@ -36,11 +36,13 @@ const Hold = () => {
                 <li>Tid: kl 9.30-11:00</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
                 <li>Form: Yin og blide bevægelser</li>
+                <li>Adresse: Nørretoftevej 20, Helsinge</li>
               </ul>
               <ul className="font-extralight mt-4 text-center sm:text-left">
                 <li>Tid: kl 19:00-20:30</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
                 <li>Form: Fra Hatha til Yin</li>
+                <li>Adresse: Nørretoftevej 20, Helsinge</li>
               </ul>
             </div>
           </div>
@@ -63,6 +65,7 @@ const Hold = () => {
                 <li>Tid: kl 10.00-11:30</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
                 <li>Form: Yin og blide bevægelser</li>
+                <li>Adresse: Nørretoftevej 20, Helsinge</li>
               </ul>
             </div>
           </div>
