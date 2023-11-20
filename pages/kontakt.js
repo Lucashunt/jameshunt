@@ -91,7 +91,7 @@ const Kontakt = () => {
               <h1 className="text-3xl text-center">Kontakt info</h1>
               <p className="mt-10 font-extralight">
               James Ingemann Hunt<br />
-Nørretofte 20,
+Nørretoftevej 20,
 3200 Helsinge
 <br /><br />
 CVR nr.: 37122696<br />

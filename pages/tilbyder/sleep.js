@@ -74,7 +74,7 @@ const sleep = () => {
                 Forløbet aftales og tilpasses i samarbejde med dig. Under
                 forløbet er det muligt at kontakte mig telefonisk <br /> <br />
                 <b>STED:</b> <br />
-                Helsinge – Nørretofte 20, 3200 Helsinge
+                Helsinge – Nørretoftevej 20, 3200 Helsinge
                 <br />
                 Gilleleje - Hovedgade 19, 3250 Gilleje
                 <br />

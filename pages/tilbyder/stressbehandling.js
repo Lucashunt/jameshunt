@@ -45,7 +45,7 @@ const stressbehandling = () => {
                 <b>STED:</b> <br />
                 Jeg har behandling i Helsinge og Smidsstrup.
                 <br />
-                Helsinge – Nørretofte 20, 3200 Helsinge
+                Helsinge – Nørretoftevej 20, 3200 Helsinge
                 <br />
                 Smidsstrup – Digeshøj 7A, 3250 Gilleje (privat)
                 <br />

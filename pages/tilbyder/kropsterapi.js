@@ -58,7 +58,7 @@ const kropsterapi = () => {
                 <b>STED:</b> <br />
                 Jeg har behandling i Helsinge & Gilleleje.
                 <br /> <br />
-                Helsinge – Nørretofte 20, 3200 Helsinge
+                Helsinge – Nørretoftevej 20, 3200 Helsinge
                 <br />
                 Gilleleje - Hovedgade 19, 3250 Gilleje
                 <br />
