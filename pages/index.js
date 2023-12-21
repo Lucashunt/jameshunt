@@ -227,10 +227,10 @@ export default function Home(blogs) {
             </div>
           </div>
           <div className="">
-            <Link href="/tilbyder/begivenheder">
-              <a>
+            <Link href="https://www.facebook.com/Jameshunt.dk/events" passHref>
+            <a target="_blank" rel="noopener noreferrer">
                 <h3 className="text-4xl text-center font-extralight py-20 bg-yellow-300/20 rounded-3xl hover:bg-yellow-300/10 transition ease-in-out duration-500 hover:translate-x-3">
-                  Begivenheder
+                  Begivenheder på Facebook
                 </h3>
               </a>
             </Link>
@@ -238,10 +238,12 @@ export default function Home(blogs) {
               Workshops, retreats mm.
             </p>
             <div className="flex justify-center">
-              <Link href="/tilbyder/begivenheder">
+            <Link href="https://www.facebook.com/Jameshunt.dk/events" passHref>
+            <a target="_blank" rel="noopener noreferrer">
                 <button className="px-4 py-2 mt-3 text-white transition duration-300 rounded-md bg-default hover:bg-default/60 font-extralight">
-                  <a>Læs mere</a>
+               Læs mere
                 </button>
+                </a>
               </Link>
             </div>
           </div>
