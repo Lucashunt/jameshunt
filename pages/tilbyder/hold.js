@@ -1,37 +1,38 @@
-
 import Link from "next/link";
 import Header from "../../comps/Header";
-
 
 const Hold = () => {
   return (
     <div className="bg-background">
-      <Header title="Hold" description="Teams page"/>
+      <Header title="Hold" description="Teams page" />
       <div className="px-10 sm:px-24">
-
         <h1 className="text-4xl sm:text-7xl text-center font-extralight py-20 mt-20 rounded-3xl bg-gray-400/20">
           Mine hold
         </h1>
-<div className="flex sm:flex-row justify-center items-center flex-col my-28">
-        <Link href="#hold">   
-          <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-         <a>Hold</a>
-        </button></Link>
-        <Link href="#beskrivelser">   
-          <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-         <a>Beskrivelser</a>
-        </button></Link>
-        <Link href="#priser">   
-          <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
-         <a>Priser</a>
-        </button></Link>
+        <div className="flex sm:flex-row justify-center items-center flex-col my-28">
+          <Link href="#hold">
+            <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
+              <a>Hold</a>
+            </button>
+          </Link>
+          <Link href="#beskrivelser">
+            <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
+              <a>Beskrivelser</a>
+            </button>
+          </Link>
+          <Link href="#priser">
+            <button className="px-5 py-3 mb-3 mr-3 transition duration-300 bg-white rounded-md shadow-2xl hover:bg-white/60 shadow-black sm:mb-0">
+              <a>Priser</a>
+            </button>
+          </Link>
         </div>
 
         <div className="grid sm:grid-cols-3 gap-10">
-
           <div className="col-span-1 flex flex-col items-center">
             <div>
-              <h3 className="text-center sm:text-left text-3xl " id="hold">Tirsdag</h3>
+              <h3 className="text-center sm:text-left text-3xl " id="hold">
+                Tirsdag
+              </h3>
               <ul className="font-extralight mt-4 text-center sm:text-left">
                 <li>Tid: kl 9.30-11:00</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
@@ -49,7 +50,9 @@ const Hold = () => {
 
           <div className="col-span-1 flex flex-col items-center ">
             <div>
-              <h3 className="text-center sm:text-left text-3xl ">Nyt hold onsdage</h3>
+              <h3 className="text-center sm:text-left text-3xl ">
+                Nyt hold onsdage
+              </h3>
               <ul className="font-extralight mt-4 text-center sm:text-left">
                 <li>Tid: kl 17-18:30</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
@@ -57,12 +60,18 @@ const Hold = () => {
               </ul>
             </div>
           </div>
-          
+
           <div className="col-span-1 flex flex-col  items-center sm:items-end">
             <div>
               <h3 className="text-center sm:text-left text-3xl">Torsdag</h3>
               <ul className="font-extralight mt-4 text-center sm:text-left">
                 <li>Tid: kl 10.00-11:30</li>
+                <li>Underviser: James Hunt, Mobil 42531104</li>
+                <li>Form: Yin og blide bevægelser</li>
+                <li>Adresse: Nørretoftevej 20, Helsinge</li>
+              </ul>
+              <ul className="font-extralight mt-4 text-center sm:text-left">
+                <li>Tid: kl 17-18:30</li>
                 <li>Underviser: James Hunt, Mobil 42531104</li>
                 <li>Form: Yin og blide bevægelser</li>
                 <li>Adresse: Nørretoftevej 20, Helsinge</li>
@@ -95,7 +104,12 @@ const Hold = () => {
           </div>
           <div className="col-span-1 flex flex-col items-center">
             <div>
-              <h3 className="text-center sm:text-left text-3xl" id="beskrivelser">Hatha Yoga</h3>
+              <h3
+                className="text-center sm:text-left text-3xl"
+                id="beskrivelser"
+              >
+                Hatha Yoga
+              </h3>
               <p className="font-extralight mt-4">
                 I mindful Hatha kombinere vi de styrkende øvelser, med lange
                 stræk og blide bevægelser. Det udadvendte aktive, med det
@@ -125,11 +139,13 @@ const Hold = () => {
         <div className="flex justify-center sm:mt-20 mt-10">
           <div className="h-auto text-white rounded-md shadow-2xl bg-default shadow-black my-10 sm:w-1/2">
             <div className="p-6 sm:p-10">
-              <h1 className="text-3xl text-center mb-10" id="priser">Priser</h1>
+              <h1 className="text-3xl text-center mb-10" id="priser">
+                Priser
+              </h1>
               <h3>Sæsontilmelding 2023</h3>
               <p className="font-extralight mt-2">
                 Ved sæson tilmelding koster det 110 kr pr gang ved samlet
-                betaling.
+                betaling. (2024 pris opdateres mellem jul og nytår)
               </p>
               <h3 className="mt-10">Start efter sæsonstart</h3>
               <p className="font-extralight mt-2">
