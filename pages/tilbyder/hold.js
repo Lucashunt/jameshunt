@@ -142,10 +142,10 @@ const Hold = () => {
               <h1 className="text-3xl text-center mb-10" id="priser">
                 Priser
               </h1>
-              <h3>Sæsontilmelding 2023</h3>
+              <h3>Sæsontilmelding 2024</h3>
               <p className="font-extralight mt-2">
-                Ved sæson tilmelding koster det 110 kr pr gang ved samlet
-                betaling. (2024 pris opdateres mellem jul og nytår)
+                Ved sæson tilmelding koster det 118 kr pr gang ved samlet
+                betaling. (Kontakt mig for at høre hvor mange gange der er tilbage af sæsonen)
               </p>
               <h3 className="mt-10">Start efter sæsonstart</h3>
               <p className="font-extralight mt-2">

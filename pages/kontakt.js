@@ -95,7 +95,7 @@ Nørretoftevej 20,
 3200 Helsinge
 <br /><br />
 CVR nr.: 37122696<br />
-Bankoplysninger: 0400-4019677325<br />
+Bankoplysninger: 0400-4031041762<br />
 Mobilpay nr.: 42531104
 <br /><br />
 Email: james@jameshunt.dk <br />
