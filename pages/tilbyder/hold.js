@@ -156,7 +156,7 @@ const Hold = () => {
                 uge ikke kan gå på dit faste. (forudsat der er plads)
               </p>
               <h3 className="mt-10">Betaling ved fremmøde</h3>
-              <p className="font-extralight mt-2">Drop in koster det 150 kr</p>
+              <p className="font-extralight mt-2">Drop in koster det 160 kr</p>
             </div>
           </div>
         </div>
