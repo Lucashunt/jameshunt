@@ -27,7 +27,7 @@ const Hold = () => {
           </Link>
         </div>
 
-        <div className="grid sm:grid-cols-3 gap-10">
+        <div className="grid sm:grid-cols-2 gap-10">
           <div className="col-span-1 flex flex-col items-center">
             <div>
               <h3 className="text-center sm:text-left text-3xl " id="hold">
@@ -48,20 +48,9 @@ const Hold = () => {
             </div>
           </div>
 
-          <div className="col-span-1 flex flex-col items-center ">
-            <div>
-              <h3 className="text-center sm:text-left text-3xl ">
-                Nyt hold onsdage
-              </h3>
-              <ul className="font-extralight mt-4 text-center sm:text-left">
-                <li>Tid: kl 17-18:30</li>
-                <li>Underviser: James Hunt, Mobil 42531104</li>
-                <li>Adresse: Gilleleje hovedgade 19</li>
-              </ul>
-            </div>
-          </div>
 
-          <div className="col-span-1 flex flex-col  items-center sm:items-end">
+
+          <div className="col-span-1 flex flex-col items-center">
             <div>
               <h3 className="text-center sm:text-left text-3xl">Torsdag</h3>
               <ul className="font-extralight mt-4 text-center sm:text-left">
