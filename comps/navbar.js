@@ -111,16 +111,7 @@ const Navbars = () => {
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            href="/tilbyder/stressbehandling"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
-                          >
-                            Stressbehandling
-                          </a>
-                        )}
-                      </Menu.Item>
+      
                     </Menu.Items>
                   </Transition>
                 </Menu>

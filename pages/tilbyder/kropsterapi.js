@@ -65,9 +65,9 @@ const kropsterapi = () => {
                 <br />
                 <b>PRIS:</b>
                 <br />
-                60 min kr. 600,-
+                60 min kr. 650,-
                 <br />
-                Første gang ca 90 min: kr 800,-
+                Første gang ca 90 min: kr 850,-
             
                 <br />
                 <br />

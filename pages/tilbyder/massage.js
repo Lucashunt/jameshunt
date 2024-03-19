@@ -43,7 +43,9 @@ Ofte får du øvelser med hjem, som er med til at speede op for — og fastholde
                 <br />
                 <b>PRIS:</b>
                 <br />
-                60 min: kr. 600,-
+                Ca. 60 min: kr. 650,-
+                <br />
+                Første gang: kr. 850,-
                 <br />
                 <br />
                 <b>KONTAKT:</b>

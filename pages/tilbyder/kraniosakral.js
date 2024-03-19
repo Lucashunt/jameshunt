@@ -74,10 +74,13 @@ const kraniosakral = () => {
                 Gilleleje - Hovedgade 19, 3250 Gilleje
                 <br />
                 <br />
-                En behandling varer ca. 60 minutter og koster 600 kr 
+                <b>PRIS:</b>
+                <br />
+                Ca. 60 min: kr. 650,-
+                <br />
+                Første gang: kr. 850,-
                 <br />
                 <br />
-
                 Betaling kan ske kontant eller ved mobilepay på telefonnr.: 42
                 53 11 04
                 <br />
