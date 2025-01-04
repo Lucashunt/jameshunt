@@ -26,7 +26,7 @@ const Footer = () => {
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2"><Link href="/tilbyder/sleep"><a>Søvn</a></Link></p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2"><Link href="/tilbyder/stressbehandling"><a>Stressbehandling</a></Link></p>
             <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2"><Link href="/tilbyder/hold"><a>Mine hold</a></Link></p>
-            <p className="mt-3 transition duration-300 ease-in-out font-extralight hover:translate-x-2"><Link href="/tilbyder/begivenheder"><a>Begivenheder</a></Link></p>
+          
 
           </div>
           </div>
