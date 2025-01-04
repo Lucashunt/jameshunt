@@ -133,7 +133,7 @@ const Hold = () => {
               </h1>
               <h3>Sæsontilmelding 2024</h3>
               <p className="font-extralight mt-2">
-                Ved sæson tilmelding koster det 118 kr pr gang ved samlet
+                Ved sæson tilmelding koster det 120 kr pr gang ved samlet
                 betaling. (Kontakt mig for at høre hvor mange gange der er tilbage af sæsonen)
               </p>
               <h3 className="mt-10">Start efter sæsonstart</h3>
@@ -145,7 +145,7 @@ const Hold = () => {
                 uge ikke kan gå på dit faste. (forudsat der er plads)
               </p>
               <h3 className="mt-10">Betaling ved fremmøde</h3>
-              <p className="font-extralight mt-2">Drop in koster det 160 kr</p>
+              <p className="font-extralight mt-2">Drop in koster 160 kr</p>
             </div>
           </div>
         </div>

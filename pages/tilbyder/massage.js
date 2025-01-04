@@ -41,16 +41,18 @@ Ofte får du øvelser med hjem, som er med til at speede op for — og fastholde
                 Gilleleje - Hovedgade 19, 3250 Gilleje
                 <br />
                 <br />
-                <b>PRIS:</b>
+                <b>PRISER:</b>
                 <br />
-                Ca. 60 min: kr. 650,-
+                Ca. 60 min: kr. 700,-
                 <br />
-                Første gang: kr. 850,-
+                Første gang ca. 75 min: kr. 900,-
                 <br />
                 <br />
                 <b>KONTAKT:</b>
                 <br />
-                James@Jameshunt.dk eller james@yoga-nord.dk, mobil: 42 53 11 04
+                James@Jameshunt.dk
+                <br />
+                42 53 11 04
                 <br />
                 <br />
                 <b>AFBUD:</b>

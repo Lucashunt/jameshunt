@@ -65,15 +65,17 @@ const kropsterapi = () => {
                 <br />
                 <b>PRIS:</b>
                 <br />
-                60 min kr. 650,-
+                60 min kr. 700,-
                 <br />
-                Første gang ca 90 min: kr 850,-
+                Første gang ca 90 min: kr 900,-
             
                 <br />
                 <br />
                 <b>KONTAKT:</b>
                 <br />
-                James@Jameshunt.dk eller james@yoga-nord.dk, mobil: 42 53 11 04
+                James@Jameshunt.dk
+                <br />
+                42 53 11 04
                 <br />
                 <br />
                 <b>AFBUD:</b>

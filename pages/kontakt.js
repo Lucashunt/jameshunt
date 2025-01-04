@@ -12,7 +12,7 @@ const Kontakt = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_kdznx1r', 'template_nxx1ldf', form.current, '7ROEdI7Zz60mSevmY')
+    emailjs.sendForm('service_6dkud3q', 'template_nxx1ldf', form.current, '7ROEdI7Zz60mSevmY')
       .then((result) => {
           toast.success('Email sendt! 📧')
       }, (error) => {

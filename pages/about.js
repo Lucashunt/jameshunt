@@ -24,7 +24,7 @@ const about = () => {
                 for private og organisationer, herunder med stresshåndtering,
                 terapeutisk massage, kranio-sakral terapi, søvn udredning,
                 meditation og yoga.<br /> <br /> Jeg drager erfaring gennem min egen praksis,
-                samt gennem de over 2000 timers undervisning jeg har givet. Min
+                samt gennem de over 4000 timers undervisning jeg har givet. Min
                 baggrund som ingeniør bruger jeg i dag til metodisk og
                 videnskabeligt at finde ud af, hvad der virker bedst og mest
                 effektivt i mit virke som underviser. <br /> <br />I 2009 blev jeg som
@@ -38,8 +38,7 @@ const about = () => {
                 hovedet. Langsomt men sikkert blev jeg bedre til at prioritere
                 hvad der var vigtigt for mig. <br /> <br />Jeg oparbejdede en evne til at
                 koncentrere mig, og være nærværende som jeg aldrig før har
-                oplevet. Det brænder jeg for at give videre. <br /> <br />Du kan læse mere om
-                mig og hvad jeg laver på siden her eller på <Link href="http://yoga-nord.dk"><a className="hover:text-black/50">www.yoga-nord.dk</a></Link>
+                oplevet. Det brænder jeg for at give videre.
               </p>
             </div>
           </div>

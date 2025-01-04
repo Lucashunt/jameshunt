@@ -79,14 +79,18 @@ const sleep = () => {
                 Gilleleje - Hovedgade 19, 3250 Gilleje
                 <br />
                 <br />
-                <b>PRIS:</b>
+                <b>PRISER:</b>
                 <br />
-                650 kr/time.
+                Ca. 60 min: kr. 700,-
+                <br />
+                Første gang ca. 75 min: kr. 900,-
                 <br />
                 <br />
                 <b>KONTAKT:</b>
                 <br />
-                James@Jameshunt.dk eller james@yoga-nord.dk, mobil: 42 53 11 04
+                James@Jameshunt.dk
+                <br />
+                42 53 11 04
                 <br />
                 <br />
                 <b>AFBUD:</b>
